@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_res_home"
+          android:icon="@drawable/home"
+          android:title="Home"></item>
+
+    <item android:id="@+id/nav_res_teams"
+          android:icon="@drawable/teams"
+          android:title="Teams"></item>
+
+    <item android:id="@+id/nav_res_live_tv"
+          android:icon="@drawable/live_tv"
+          android:title="Live TV"></item>
+
+    <item android:id="@+id/nav_res_live_score"
+          android:icon="@drawable/score_card"
+          android:title="Live Score"></item>
+
+    <item android:id="@+id/nav_res_live_points_table"
+          android:icon="@drawable/points_table"
+          android:title="Points Table"></item>
+</menu>
