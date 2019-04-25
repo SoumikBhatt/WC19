@@ -1,10 +1,9 @@
-package com.example.wc19
+package com.example.wc19.activities
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.support.design.widget.BottomNavigationView
 import android.support.v4.app.Fragment
-import android.widget.FrameLayout
+import com.example.wc19.R
 import com.example.wc19.fragments.*
 import kotlinx.android.synthetic.main.activity_main.*
 

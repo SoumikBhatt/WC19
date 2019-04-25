@@ -6,12 +6,11 @@ import android.os.Handler
 import android.support.v7.app.AppCompatActivity
 import android.view.Window
 import android.view.WindowManager
-import com.example.wc19.MainActivity
 import com.example.wc19.R
 
 class SplashScreenActivity:AppCompatActivity() {
 
-    private val SPLASH_TIME_OUT: Long = 5000 // 5 sec
+    private val SPLASH_TIME_OUT: Long = 2000 // 2 sec
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

@@ -3,4 +3,27 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello Home fragment</string>
+    <string name="night_time">Match Time: 12:30 GMT / 1.30 AM Local / 6.30 PM BDT / 7.00 PM IND</string>
+    <string name="day_time">Match Time: 9:30 GMT / 10.30 AM Local / 3.30 PM BDT / 4.00 PM IND</string>
+    <string name="venue_county_taunton">Venue: County Ground Taunton, Taunton</string>
+    <string name="venue_oval">Venue: The Oval, London</string>
+    <string name="venue_trent_bridge">Venue: Trent Bridge, Nottingham</string>
+    <string name="venue_cardiff">Venue: Cardiff Wales Stadium, Cardiff</string>
+    <string name="sri_lanka">Sri Lanka</string>
+    <string name="new_zealand">New Zealand</string>
+    <string name="afghanistan">Afghanistan</string>
+    <string name="australia">Australia</string>
+    <string name="venue_bristol">Venue: Bristol County Ground, Bristol</string>
+    <string name="south_africa">South Africa</string>
+    <string name="bangladesh">Bangladesh</string>
+    <string name="england">England</string>
+    <string name="pakistan">Pakistan</string>
+    <string name="india">India</string>
+    <string name="venue_hampshire">Venue: Hampshire Bowl, Southampton</string>
+    <string name="venue_edgbaston">Venue: Edgbaston, Birmingham</string>
+    <string name="venue_headingley">Venue: Headingley, Leeds</string>
+    <string name="west_indies">West Indies</string>
+    <string name="venue_taunton">Venue: Taunton, Taunton</string>
+    <string name="venue_old_trafford">Venue: Old Trafford, Manchester</string>
+    <string name="venue_lords">Venue: Lords, London</string>
 </resources>
