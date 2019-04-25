@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:background="#0C69AF">
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Match 1, ICC cricket world cup 2019"
+              android:textAllCaps="true"
+              android:textColor="#FFFFFF"
+              android:layout_marginTop="15dp"
+              android:layout_marginRight="15dp"
+              android:layout_marginLeft="15dp"
+              android:fontFamily="serif-monospace"
+              android:id="@+id/tv_match_number"
+              android:textSize="16sp"
+              android:textStyle="bold"
+    />
+    <TextView
+            android:id="@+id/tv_match_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9:30 (GMT), 31 May, The Oval, London"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="05dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="serif-monospace"
+            android:textSize="14sp"
+            android:textStyle="bold"
+    />
+
+    <RelativeLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+    <ImageView
+            android:layout_width="85dp"
+            android:layout_height="85dp" android:src="@drawable/ic_england" android:id="@+id/iv_flag_team_one"
+            android:layout_margin="10dp"/>
+        <LinearLayout
+                android:id="@+id/ll_fixture"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+            <TextView
+                    android:text="England"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_team_name_one"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"
+                    app:fontFamily="serif-monospace"
+                    android:layout_marginBottom="5dp"
+                    android:textStyle="bold"
+                    android:textSize="16sp"/>
+
+            <TextView
+                    android:text="V"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_versus"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginBottom="5dp"
+                    android:layout_gravity="center"
+                    app:fontFamily="serif-monospace"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:textSize="14sp"/>
+
+            <TextView
+                    android:text="South Africa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_team_name_two"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    app:fontFamily="serif-monospace"
+                    android:textStyle="bold"
+                    android:textSize="16sp"/>
+        </LinearLayout>
+        <ImageView
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:src="@drawable/ic_south_africa" android:id="@+id/iv_flag_team_two"
+                android:layout_margin="10dp"
+                android:layout_alignParentEnd="true" android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+</LinearLayout>
