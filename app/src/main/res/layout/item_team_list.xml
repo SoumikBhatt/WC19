@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:cardCornerRadius="15dp"
+        android:layout_margin="10dp">
+
+    <ImageView
+            android:id="@+id/iv_team_icon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/bangladesh_team"
+            android:scaleType="centerCrop"/>
+
+    <View android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="#6A000000"></View>
+
+    <RelativeLayout android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp">
+        <TextView
+                android:id="@+id/tv_team_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bangladesh"
+                android:textSize="30sp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="serif-monospace"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:layout_above="@id/tv_team_rank"
+                android:layout_marginLeft="15dp"
+        />
+
+        <TextView
+                android:id="@+id/tv_team_rank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ICC Ranking : 7th"
+                android:layout_gravity="bottom"
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="serif-monospace"
+                android:textAllCaps="true"
+                android:layout_alignParentBottom="true"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp"
+                android:padding="0dp"/>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

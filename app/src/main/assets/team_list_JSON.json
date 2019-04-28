@@ -1,0 +1,249 @@
+{
+    "team_list":[
+
+        {
+            "team_name":"England",
+            "team_ranking":"1st",
+            "icon":"england_team",
+            "player_list":[
+                {
+                    "player_one": "Eoin Morgan (Captain)",
+                    "player_two": "Jonny Bairstow",
+                    "player_three": "Jason Roy",
+                    "player_four": "Joe Root",
+                    "player_five": "Alex Hales",
+                    "player_six":"Liam Plunkett",
+                    "player_seven":"Adil Rashid",
+                    "player_eight": "Mark Wood",
+                    "player_nine": "Ben Stokes",
+                    "player_ten": "Moeen Ali",
+                    "player_eleven": "Chris Woakes",
+                    "player_twelve":"Tom Curran",
+                    "player_thirteen":"Joe Denly",
+                    "player_fourteen":"David Willey",
+                    "player_fifteen": "Jos Buttler (WK)"
+                }
+            ]
+        },
+
+        {
+            "team_name":"India",
+            "team_ranking":"2nd",
+            "icon":"india_team",
+            "player_list":[
+                {
+                    "player_one": "Virat Kohli (Captain)",
+                    "player_two": "Rohit Sharma",
+                    "player_three": "Shikhar Dhawan",
+                    "player_four": "Vijay Shankar",
+                    "player_five": "Hardik Pandya",
+                    "player_six":"Kedar Jadhav",
+                    "player_seven":"Ravindra Jadeja",
+                    "player_eight": "Lokesh Rahul",
+                    "player_nine": "MS Dhoni (WK)",
+                    "player_ten": "Dinesh Karthik",
+                    "player_eleven": "Kuldeep Yadav",
+                    "player_twelve":"Mohammed Shami",
+                    "player_thirteen":"Jasprit Bumrah",
+                    "player_fourteen":"Bhubneshwar Kumar",
+                    "player_fifteen": "Yuzvendra Chahal"
+                }
+            ]
+        },
+
+        {
+            "team_name":"New Zealand",
+            "team_ranking":"3rd",
+            "icon":"new_zealand_team",
+            "player_list":[
+                {
+                    "player_one": "Kane Williamson (Captain)",
+                    "player_two": "Martin Guptill",
+                    "player_three": "Ross Taylor",
+                    "player_four": "Colin de Granhomme",
+                    "player_five": "Colin Munro",
+                    "player_six":"James Neesham",
+                    "player_seven":"Mitchell Santner",
+                    "player_eight": "Tom Blundell",
+                    "player_nine": "Tom Latham (WK)",
+                    "player_ten": "Henry Nicholas",
+                    "player_eleven": "Trent Boult",
+                    "player_twelve":"Lockie Ferguson",
+                    "player_thirteen":"Matt Henry",
+                    "player_fourteen":"Tim Southee",
+                    "player_fifteen": "Ish Sodhi"
+                }
+            ]
+        },
+        {
+            "team_name":"South Africa",
+            "team_ranking":"4th",
+            "icon":"south_africa_team",
+            "player_list":[
+                {
+                    "player_one": "Faf du Plessis (Captain)",
+                    "player_two": "Hashim Amla",
+                    "player_three": "David Miller",
+                    "player_four": "Aide Markeam",
+                    "player_five": "Rassie van der Dussen",
+                    "player_six":"Jean Paul Duminy",
+                    "player_seven":"Andlie Phehlukwayo",
+                    "player_eight": "Dwaine Pretorius",
+                    "player_nine": "Quinton de Kock (WK)",
+                    "player_ten": "Kagiso Rabada",
+                    "player_eleven": "Lungi Ngidi",
+                    "player_twelve":"Imran Tahir",
+                    "player_thirteen":"Anrich Nortje",
+                    "player_fourteen":"Dale Steyn",
+                    "player_fifteen": "Tabraiz Shamsi"
+                }
+            ]
+        },
+        {
+            "team_name":"Australia",
+            "team_ranking":"5th",
+            "icon":"australia_team",
+            "player_list":[
+                {
+                    "player_one": "Aaron Finch (Captain)",
+                    "player_two": "David Warner",
+                    "player_three": "Steven Smith",
+                    "player_four": "Usman Khwaja",
+                    "player_five": "Shaun Marsh",
+                    "player_six":"Glenn Maxwell",
+                    "player_seven":"Marcus Stoinis",
+                    "player_eight": "Jhye Richardson",
+                    "player_nine": "Alex Carey (WK)",
+                    "player_ten": "Pat Cummins",
+                    "player_eleven": "Mitchell Starc",
+                    "player_twelve":"Nathan Coulter-Nile",
+                    "player_thirteen":"Jason Behrendroff",
+                    "player_fourteen":"Adam Zampa",
+                    "player_fifteen": "Nathan Lyon"
+                }
+            ]
+        },
+        {
+            "team_name":"Pakistan",
+            "team_ranking":"6th",
+            "icon":"pakistan_team",
+            "player_list":[
+                {
+                    "player_one": "Sarfaraz Ahmed (Captain/WK)",
+                    "player_two": "Fakhar Zaman",
+                    "player_three": "Imam ul Haque",
+                    "player_four": "Babar Azam",
+                    "player_five": "Abid Ali",
+                    "player_six":"Shoaib Malik",
+                    "player_seven":"Mohammed Hafiz",
+                    "player_eight": "Haris Sohail",
+                    "player_nine": "Shadab Khan",
+                    "player_ten": "Faheem Ashraf",
+                    "player_eleven": "Imad Wasim",
+                    "player_twelve":"Shahin Afridi",
+                    "player_thirteen":"Hasan Ali",
+                    "player_fourteen":"Junaid Khan",
+                    "player_fifteen": "Mohammad Hasnain"
+                }
+            ]
+        },
+
+        {
+            "team_name":"Bangladesh",
+            "team_ranking":"7th",
+            "icon":"bangladesh_team",
+            "player_list":[
+                {
+                    "player_one": "Mashrafe Mortaza  (Captain)",
+                    "player_two": "Tamim Iqbal",
+                    "player_three": "Soumya Sarkar",
+                    "player_four": "Liton Das",
+                    "player_five": "Sabbir Rahman",
+                    "player_six":"Shakib Al Hasan",
+                    "player_seven":"Mahmudullah Riyad",
+                    "player_eight": "Mohammad Saifuddin",
+                    "player_nine": "Mosaddek Hossain",
+                    "player_ten": "Mehidy Hasan Miraz",
+                    "player_eleven": "Mushfiqur Rahim (WK)",
+                    "player_twelve":"Mohammad Mithun",
+                    "player_thirteen":"Rubel Hossain",
+                    "player_fourteen":"Mustafizur Rahman",
+                    "player_fifteen": "Abu Jayed"
+                }
+            ]
+        },
+
+        {
+            "team_name":"Sri Lanka",
+            "team_ranking":"8th",
+            "icon":"sri_lanka_team",
+            "player_list":[
+                {
+                    "player_one": "Dimuth Karunaratne (Captain)",
+                    "player_two": "Avishka Fernando",
+                    "player_three": "Lahiru Thirimanne",
+                    "player_four": "Angelo Mathews",
+                    "player_five": "Dhananjaya De Silva",
+                    "player_six":"Isuru Udana",
+                    "player_seven":"Milinda Siriwardana",
+                    "player_eight": "Thisara Perara",
+                    "player_nine": "Jeevan Mendis",
+                    "player_ten": "Kusal Perara (WK)",
+                    "player_eleven": "Kusal Mendis",
+                    "player_twelve":"Jeffrey Vandersay",
+                    "player_thirteen":"Lasith Malinga",
+                    "player_fourteen":"Suranga Lakmal",
+                    "player_fifteen": "Nuwan Pradeep"
+                }
+            ]
+        },
+        {
+            "team_name":"West Indies",
+            "team_ranking":"9th",
+            "icon":"west_indies_team",
+            "player_list":[
+                {
+                    "player_one": "Jason Holder (Captain)",
+                    "player_two": "Chris Gayle",
+                    "player_three": "Evin Lewis",
+                    "player_four": "Shimran Hetmyer",
+                    "player_five": "Darren Bravo",
+                    "player_six":"Ashley Nurse",
+                    "player_seven":"Fabian Allen",
+                    "player_eight": "Andre Russell",
+                    "player_nine": "Carlos Brathwaite",
+                    "player_ten": "Nicholas Pooran (WK)",
+                    "player_eleven": "Shai Hope",
+                    "player_twelve":"Kemar Roach",
+                    "player_thirteen":"Oshane Thomas",
+                    "player_fourteen":"Shanon Gabriel",
+                    "player_fifteen": "Sheldon Cottrell"
+                }
+            ]
+        },
+        {
+            "team_name":"Afghanistan",
+            "team_ranking":"10th",
+            "icon":"afghanistan_team",
+            "player_list":[
+                {
+                    "player_one": "Gulbadin Naib (Captain)",
+                    "player_two": "Noor Ali Zadran",
+                    "player_three": "Hazratullah Zazai",
+                    "player_four": "Ashgar Afghan",
+                    "player_five": "Hashmatullah Shahidi",
+                    "player_six":"Najibullah Zadran",
+                    "player_seven":"Samiullah Shenwari",
+                    "player_eight": "Mohammad Nabi",
+                    "player_nine": "Mohammad Shahzad (WK)",
+                    "player_ten": "Rashid Khan",
+                    "player_eleven": "Dawlat Zadran",
+                    "player_twelve":"Aftab Alam",
+                    "player_thirteen":"Hamid Hasan",
+                    "player_fourteen":"Mujeeb ur Rahman",
+                    "player_fifteen": "Rahmat Shah"
+                }
+            ]
+        }
+    ] 
+}
