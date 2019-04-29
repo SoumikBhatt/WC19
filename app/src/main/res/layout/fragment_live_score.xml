@@ -1,17 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             xmlns:tools="http://schemas.android.com/tools"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent"
-             tools:context=".fragments.LiveScoreFragment"
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".fragments.LiveScoreFragment"
 >
+    <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="56dp"-->
+            <!--android:background="@color/colorPrimary">-->
 
-    <!-- TODO: Update blank fragment layout -->
+        <!--<TextView android:layout_width="wrap_content"-->
+                  <!--android:layout_height="wrap_content"-->
+                  <!--android:text="Live Score"-->
+                  <!--android:layout_centerInParent="true"-->
+                  <!--android:fontFamily="serif-monospace"-->
+                  <!--android:textAllCaps="true"-->
+                  <!--android:textColor="@android:color/white"-->
+                  <!--android:textSize="16sp"/>-->
 
-    <EditText
-            android:id="@+id/et_test"
-            android:layout_width="match_parent" android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:padding="10dp"
-            android:maxLength="8"/>
-</RelativeLayout>
+    <!--</RelativeLayout>-->
+
+
+    <WebView
+            android:id="@+id/wv_live_score"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></WebView>
+</LinearLayout>

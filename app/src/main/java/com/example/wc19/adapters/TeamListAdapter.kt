@@ -1,12 +1,14 @@
 package com.example.wc19.adapters
 
 import android.content.Context
+import android.content.Intent
 import android.content.res.Resources
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.wc19.R
+import com.example.wc19.activities.PlayersActivity
 import com.example.wc19.model.TeamListModel
 import kotlinx.android.synthetic.main.item_team_list.view.*
 
@@ -31,6 +33,14 @@ class TeamListAdapter(var context: Context, var teamListModel: TeamListModel): R
         val icon = resources.getIdentifier(teamListModel.team_list[p1].icon,"drawable",context.packageName)
 
         p0.teamIcon.setImageResource(icon)
+
+//        p0.itemView.setOnClickListener(View.OnClickListener {
+////
+////            var intent = Intent(context, PlayersActivity::class.java)
+////            intent.putExtra("PlayersName",teamListModel.team_list[p1].player_list[p1])
+////            context.startActivity(intent)
+////
+////        })
     }
 
     class TeamHolder(itemView:View):RecyclerView.ViewHolder(itemView) {

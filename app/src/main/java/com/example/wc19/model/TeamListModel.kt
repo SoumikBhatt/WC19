@@ -1,5 +1,7 @@
 package com.example.wc19.model
 
+import java.io.Serializable
+
 data class TeamListModel(
     val team_list: List<Team>
 )
