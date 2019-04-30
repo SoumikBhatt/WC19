@@ -35,12 +35,12 @@ class TeamListAdapter(var context: Context, var teamListModel: TeamListModel): R
         p0.teamIcon.setImageResource(icon)
 
 //        p0.itemView.setOnClickListener(View.OnClickListener {
-////
-////            var intent = Intent(context, PlayersActivity::class.java)
-////            intent.putExtra("PlayersName",teamListModel.team_list[p1].player_list[p1])
-////            context.startActivity(intent)
-////
-////        })
+//
+//            var intent = Intent(context, PlayersActivity::class.java)
+//            intent.putExtra("PlayersName",teamListModel.team_list[p1].player_list[p1])
+//            context.startActivity(intent)
+//
+//        })
     }
 
     class TeamHolder(itemView:View):RecyclerView.ViewHolder(itemView) {

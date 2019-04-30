@@ -11,7 +11,7 @@ import com.example.wc19.model.Team
 import com.example.wc19.model.TeamListModel
 import kotlinx.android.synthetic.main.item_players_list.view.*
 
-class PlayerListAdapter(val context: Context,val playerList: List<TeamListModel>): RecyclerView.Adapter<PlayerListAdapter.PlayerHolder>() {
+class PlayerListAdapter(val context: Context,val playerList: List<Player>): RecyclerView.Adapter<PlayerListAdapter.PlayerHolder>() {
     override fun onCreateViewHolder(p0: ViewGroup, p1: Int): PlayerHolder {
 
         val view = LayoutInflater.from(p0.context).inflate(R.layout.item_players_list,p0,false)
@@ -25,11 +25,14 @@ class PlayerListAdapter(val context: Context,val playerList: List<TeamListModel>
 
     override fun onBindViewHolder(p0: PlayerHolder, p1: Int) {
 
-        p0.playerName.text=playerList[p1].team_list[p1].player_list[p1].player_one
+        p0.playerName.text=playerList[p1].player_one.name
+        p0.playerImage.setImageResource(R.drawable.bangladesh)
+
     }
 
     class PlayerHolder(itemView:View):RecyclerView.ViewHolder(itemView) {
 
         val playerName = itemView.tv_player_name
+        val playerImage = itemView.iv_player_img
     }
 }
