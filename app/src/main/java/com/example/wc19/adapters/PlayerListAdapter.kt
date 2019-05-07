@@ -1,14 +1,13 @@
 package com.example.wc19.adapters
 
 import android.content.Context
+import android.content.res.Resources
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.wc19.R
 import com.example.wc19.model.Player
-import com.example.wc19.model.Team
-import com.example.wc19.model.TeamListModel
 import kotlinx.android.synthetic.main.item_players_list.view.*
 
 class PlayerListAdapter(val context: Context,val playerList: List<Player>): RecyclerView.Adapter<PlayerListAdapter.PlayerHolder>() {
@@ -25,8 +24,14 @@ class PlayerListAdapter(val context: Context,val playerList: List<Player>): Recy
 
     override fun onBindViewHolder(p0: PlayerHolder, p1: Int) {
 
-        p0.playerName.text=playerList[p1].player_one.name
-        p0.playerImage.setImageResource(R.drawable.bangladesh)
+        p0.playerName.text=playerList[p1].name
+
+        var resources: Resources = context.resources
+
+        val image = resources.getIdentifier(playerList[p1].image,"drawable",context.packageName)
+
+        p0.playerImage.setImageResource(image)
+
 
     }
 

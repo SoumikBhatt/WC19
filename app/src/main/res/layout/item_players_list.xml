@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:orientation="vertical"
                 android:background="#232882">
 
-
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
     <TextView
             android:id="@+id/tv_player_name"
             android:layout_width="wrap_content"
@@ -13,6 +16,7 @@
             android:textSize="16sp"
             android:layout_margin="10dp"
             android:textColor="#FFFFFF"
+            android:layout_centerVertical="true"
             android:fontFamily="serif-monospace"
             android:textAllCaps="true"
             android:padding="10dp"
@@ -25,6 +29,13 @@
             android:layout_height="75dp"
             android:layout_alignParentEnd="true"
             android:layout_margin="10dp"
+            android:layout_centerVertical="true"
             android:layout_alignParentRight="true"/>
 
 </RelativeLayout>
+
+    <View android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:background="#FFFFFF"></View>
+
+</LinearLayout>

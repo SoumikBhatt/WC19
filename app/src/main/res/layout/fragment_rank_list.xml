@@ -4,556 +4,557 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent"
               android:orientation="vertical"
-              tools:context=".fragments.RankListFragment">
+              tools:context=".view.view.fragments.RankListFragment">
 
     <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
 
-    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
-    android:orientation="vertical">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                      android:orientation="vertical">
 
-    <RelativeLayout android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="#52CCCCCC"
-                    android:padding="10dp"
-    android:layout_marginBottom="10dp">
-        <LinearLayout android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:orientation="horizontal">
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:text="Pos" android:textColor="#424242"/>
+            <RelativeLayout android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#52CCCCCC"
+                            android:padding="10dp"
+                            android:layout_marginBottom="10dp">
+                <LinearLayout android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:orientation="horizontal">
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="Pos" android:textColor="#424242"/>
 
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:layout_marginLeft="10dp"
-                      android:text="Team" android:textColor="#424242"/>
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginLeft="10dp"
+                              android:text="Team" android:textColor="#424242"/>
+
+                </LinearLayout>
+
+                <LinearLayout android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_alignParentEnd="true"
+                              android:orientation="horizontal"
+                              android:layout_alignParentRight="true">
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginRight="10dp"
+                              android:text="Weighted Matches"/>
+
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginRight="10dp"
+                              android:text="Points"/>
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+
+                              android:text="Rating"/>
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#3A006B"
+                            android:padding="15dp">
+                <LinearLayout android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:gravity="center_vertical"
+                              android:orientation="horizontal">
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="1"
+                              android:textColor="@android:color/white"
+                              android:textStyle="bold"/>
+                    <ImageView android:layout_width="30dp"
+                               android:layout_height="30dp"
+                               android:layout_marginLeft="10dp"
+                               android:layout_gravity="center_vertical"
+                               android:src="@drawable/england"/>
+
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginLeft="10dp"
+                              android:text="England"
+                              android:textColor="@android:color/white"/>
+
+                </LinearLayout>
+
+                <LinearLayout android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_centerVertical="true"
+                              android:layout_alignParentEnd="true"
+                              android:orientation="horizontal"
+                              android:layout_alignParentRight="true">
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginRight="80dp"
+                              android:text="38" android:textColor="@android:color/white"
+                    />
+
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginRight="20dp"
+                              android:text="4,659" android:textColor="@android:color/white"/>
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="123"
+                              android:textColor="@android:color/white"
+                              android:textStyle="bold"/>
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp">
+                <LinearLayout android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:gravity="center_vertical"
+                              android:orientation="horizontal">
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="2"
+                              android:textStyle="bold" android:textColor="#424242"/>
+                    <ImageView android:layout_width="30dp"
+                               android:layout_height="30dp"
+                               android:layout_marginLeft="10dp"
+                               android:layout_gravity="center_vertical"
+                               android:src="@drawable/india"/>
+
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginLeft="10dp"
+                              android:text="India"
+                              android:textColor="#424242"/>
+
+                </LinearLayout>
+
+                <LinearLayout android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_centerVertical="true"
+                              android:layout_alignParentEnd="true"
+                              android:orientation="horizontal"
+                              android:layout_alignParentRight="true">
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginRight="80dp"
+                              android:text="47"
+                              android:textColor="#424242"/>
+
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginRight="20dp"
+                              android:text="5,669"
+                              android:textColor="#424242"/>
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="121"
+                              android:textColor="#424242"/>
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp">
+                <LinearLayout android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:gravity="center_vertical"
+                              android:orientation="horizontal">
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="3"
+                              android:textStyle="bold" android:textColor="#424242"/>
+                    <ImageView android:layout_width="30dp"
+                               android:layout_height="30dp"
+                               android:layout_marginLeft="10dp"
+                               android:layout_gravity="center_vertical"
+                               android:src="@drawable/south_africa"/>
+
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginLeft="10dp"
+                              android:text="South Africa"
+                              android:textColor="#424242"/>
+
+                </LinearLayout>
+
+                <LinearLayout android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_centerVertical="true"
+                              android:layout_alignParentEnd="true"
+                              android:orientation="horizontal"
+                              android:layout_alignParentRight="true">
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginRight="80dp"
+                              android:text="39"
+                              android:textColor="#424242"/>
+
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginRight="20dp"
+                              android:text="4,488"
+                              android:textColor="#424242"/>
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="115"
+                              android:textColor="#424242"/>
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp">
+                <LinearLayout android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:gravity="center_vertical"
+                              android:orientation="horizontal">
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="4"
+                              android:textStyle="bold" android:textColor="#424242"/>
+                    <ImageView android:layout_width="30dp"
+                               android:layout_height="30dp"
+                               android:layout_marginLeft="10dp"
+                               android:layout_gravity="center_vertical"
+                               android:src="@drawable/new_zealand"/>
+
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginLeft="10dp"
+                              android:text="New Zealand"
+                              android:textColor="#424242"/>
+
+                </LinearLayout>
+
+                <LinearLayout android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_centerVertical="true"
+                              android:layout_alignParentEnd="true"
+                              android:orientation="horizontal"
+                              android:layout_alignParentRight="true">
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginRight="80dp"
+                              android:text="33"
+                              android:textColor="#424242"/>
+
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginRight="20dp"
+                              android:text="3,729"
+                              android:textColor="#424242"/>
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="113"
+                              android:textColor="#424242"/>
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp">
+                <LinearLayout android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:gravity="center_vertical"
+                              android:orientation="horizontal">
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="5"
+                              android:textStyle="bold" android:textColor="#424242"/>
+                    <ImageView android:layout_width="30dp"
+                               android:layout_height="30dp"
+                               android:layout_marginLeft="10dp"
+                               android:layout_gravity="center_vertical"
+                               android:src="@drawable/australia"/>
+
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginLeft="10dp"
+                              android:text="Australia"
+                              android:textColor="#424242"/>
+
+                </LinearLayout>
+
+                <LinearLayout android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_centerVertical="true"
+                              android:layout_alignParentEnd="true"
+                              android:orientation="horizontal"
+                              android:layout_alignParentRight="true">
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginRight="80dp"
+                              android:text="40"
+                              android:textColor="#424242"/>
+
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginRight="20dp"
+                              android:text="4,342"
+                              android:textColor="#424242"/>
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="109"
+                              android:textColor="#424242"/>
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp">
+                <LinearLayout android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:gravity="center_vertical"
+                              android:orientation="horizontal">
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="6"
+                              android:textStyle="bold" android:textColor="#424242"/>
+                    <ImageView android:layout_width="30dp"
+                               android:layout_height="30dp"
+                               android:layout_marginLeft="10dp"
+                               android:layout_gravity="center_vertical"
+                               android:src="@drawable/pakistan"/>
+
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginLeft="10dp"
+                              android:text="Pakistan"
+                              android:textColor="#424242"/>
+
+                </LinearLayout>
+
+                <LinearLayout android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_centerVertical="true"
+                              android:layout_alignParentEnd="true"
+                              android:orientation="horizontal"
+                              android:layout_alignParentRight="true">
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginRight="80dp"
+                              android:text="37"
+                              android:textColor="#424242"/>
+
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginRight="28dp"
+                              android:text="3,552"
+                              android:textColor="#424242"/>
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="96"
+                              android:textColor="#424242"/>
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp">
+                <LinearLayout android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:gravity="center_vertical"
+                              android:orientation="horizontal">
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="7"
+                              android:textStyle="bold" android:textColor="#424242"/>
+                    <ImageView android:layout_width="30dp"
+                               android:layout_height="30dp"
+                               android:layout_marginLeft="10dp"
+                               android:layout_gravity="center_vertical"
+                               android:src="@drawable/bangladesh"/>
+
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginLeft="10dp"
+                              android:text="Bangladesh"
+                              android:textColor="#424242"/>
+
+                </LinearLayout>
+
+                <LinearLayout android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_centerVertical="true"
+                              android:layout_alignParentEnd="true"
+                              android:orientation="horizontal"
+                              android:layout_alignParentRight="true">
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginRight="80dp"
+                              android:text="31"
+                              android:textColor="#424242"/>
+
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginRight="28dp"
+                              android:text="2,667"
+                              android:textColor="#424242"/>
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="86"
+                              android:textColor="#424242"/>
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp">
+                <LinearLayout android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:gravity="center_vertical"
+                              android:orientation="horizontal">
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="8"
+                              android:textStyle="bold" android:textColor="#424242"/>
+                    <ImageView android:layout_width="30dp"
+                               android:layout_height="30dp"
+                               android:layout_marginLeft="10dp"
+                               android:layout_gravity="center_vertical"
+                               android:src="@drawable/west_indies"/>
+
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginLeft="10dp"
+                              android:text="West Indies"
+                              android:textColor="#424242"/>
+
+                </LinearLayout>
+
+                <LinearLayout android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_centerVertical="true"
+                              android:layout_alignParentEnd="true"
+                              android:orientation="horizontal"
+                              android:layout_alignParentRight="true">
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginRight="80dp"
+                              android:text="35"
+                              android:textColor="#424242"/>
+
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginRight="28dp"
+                              android:text="2,815"
+                              android:textColor="#424242"/>
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="80"
+                              android:textColor="#424242"/>
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp">
+                <LinearLayout android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:gravity="center_vertical"
+                              android:orientation="horizontal">
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="9"
+                              android:textStyle="bold" android:textColor="#424242"/>
+                    <ImageView android:layout_width="30dp"
+                               android:layout_height="30dp"
+                               android:layout_marginLeft="10dp"
+                               android:layout_gravity="center_vertical"
+                               android:src="@drawable/sri_lanka"/>
+
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginLeft="10dp"
+                              android:text="Sri Lanka"
+                              android:textColor="#424242"/>
+
+                </LinearLayout>
+
+                <LinearLayout android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_centerVertical="true"
+                              android:layout_alignParentEnd="true"
+                              android:orientation="horizontal"
+                              android:layout_alignParentRight="true">
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginRight="80dp"
+                              android:text="43"
+                              android:textColor="#424242"/>
+
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginRight="28dp"
+                              android:text="3,266"
+                              android:textColor="#424242"/>
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="76"
+                              android:textColor="#424242"/>
+
+                </LinearLayout>
+            </RelativeLayout>
+
+
+            <RelativeLayout android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp">
+                <LinearLayout android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:gravity="center_vertical"
+                              android:orientation="horizontal">
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="10"
+                              android:textStyle="bold" android:textColor="#424242"/>
+                    <ImageView android:layout_width="30dp"
+                               android:layout_height="30dp"
+                               android:layout_marginLeft="10dp"
+                               android:layout_gravity="center_vertical"
+                               android:src="@drawable/afghanistan"/>
+
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginLeft="10dp"
+                              android:text="Afghanistan"
+                              android:textColor="#424242"/>
+
+                </LinearLayout>
+
+                <LinearLayout android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_centerVertical="true"
+                              android:layout_alignParentEnd="true"
+                              android:orientation="horizontal"
+                              android:layout_alignParentRight="true">
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginRight="80dp"
+                              android:text="28"
+                              android:textColor="#424242"/>
+
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginRight="28dp"
+                              android:text="1,780"
+                              android:textColor="#424242"/>
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="64"
+                              android:textColor="#424242"/>
+
+                </LinearLayout>
+            </RelativeLayout>
 
         </LinearLayout>
-
-        <LinearLayout android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:layout_alignParentEnd="true"
-                      android:orientation="horizontal"
-                      android:layout_alignParentRight="true">
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:layout_marginRight="10dp"
-                      android:text="Weighted Matches"/>
-
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:layout_marginRight="10dp"
-                      android:text="Points"/>
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-
-                      android:text="Rating"/>
-
-        </LinearLayout>
-    </RelativeLayout>
-
-    <RelativeLayout android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="#3A006B"
-                    android:padding="15dp">
-        <LinearLayout android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:gravity="center_vertical"
-                      android:orientation="horizontal">
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:text="1"
-                      android:textColor="@android:color/white"
-                      android:textStyle="bold"/>
-            <ImageView android:layout_width="30dp"
-                       android:layout_height="30dp"
-                       android:layout_marginLeft="10dp"
-                       android:layout_gravity="center_vertical"
-                       android:src="@drawable/england"/>
-
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:layout_marginLeft="10dp"
-                      android:text="England"
-                      android:textColor="@android:color/white"/>
-
-        </LinearLayout>
-
-        <LinearLayout android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:layout_centerVertical="true"
-                      android:layout_alignParentEnd="true"
-                      android:orientation="horizontal"
-                      android:layout_alignParentRight="true">
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:layout_marginRight="80dp"
-                      android:text="59" android:textColor="@android:color/white"
-            />
-
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:layout_marginRight="20dp"
-                      android:text="7,259" android:textColor="@android:color/white"/>
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:text="123"
-                      android:textColor="@android:color/white"
-                      android:textStyle="bold"/>
-
-        </LinearLayout>
-    </RelativeLayout>
-
-    <RelativeLayout android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="15dp">
-        <LinearLayout android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:gravity="center_vertical"
-                      android:orientation="horizontal">
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:text="2"
-                      android:textStyle="bold" android:textColor="#424242"/>
-            <ImageView android:layout_width="30dp"
-                       android:layout_height="30dp"
-                       android:layout_marginLeft="10dp"
-                       android:layout_gravity="center_vertical"
-                       android:src="@drawable/india"/>
-
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:layout_marginLeft="10dp"
-                      android:text="India"
-                      android:textColor="#424242"/>
-
-        </LinearLayout>
-
-        <LinearLayout android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:layout_centerVertical="true"
-                      android:layout_alignParentEnd="true"
-                      android:orientation="horizontal"
-                      android:layout_alignParentRight="true">
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:layout_marginRight="80dp"
-                      android:text="71"
-                      android:textColor="#424242"/>
-
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:layout_marginRight="20dp"
-                      android:text="8,508"
-                      android:textColor="#424242"/>
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:text="120"
-                      android:textColor="#424242"/>
-
-        </LinearLayout>
-    </RelativeLayout>
-
-    <RelativeLayout android:layout_width="match_parent"
-                                     android:layout_height="wrap_content"
-                                     android:padding="15dp">
-    <LinearLayout android:layout_width="wrap_content"
-                  android:layout_height="wrap_content"
-                  android:gravity="center_vertical"
-                  android:orientation="horizontal">
-        <TextView android:layout_width="wrap_content"
-                  android:layout_height="wrap_content"
-                  android:text="3"
-                  android:textStyle="bold" android:textColor="#424242"/>
-        <ImageView android:layout_width="30dp"
-                   android:layout_height="30dp"
-                   android:layout_marginLeft="10dp"
-                   android:layout_gravity="center_vertical"
-                   android:src="@drawable/new_zealand"/>
-
-        <TextView android:layout_width="wrap_content"
-                  android:layout_height="wrap_content"
-                  android:layout_marginLeft="10dp"
-                  android:text="New Zealand"
-                  android:textColor="#424242"/>
-
-    </LinearLayout>
-
-    <LinearLayout android:layout_width="wrap_content"
-                  android:layout_height="wrap_content"
-                  android:layout_centerVertical="true"
-                  android:layout_alignParentEnd="true"
-                  android:orientation="horizontal"
-                  android:layout_alignParentRight="true">
-        <TextView android:layout_width="wrap_content"
-                  android:layout_height="wrap_content"
-                  android:layout_marginRight="80dp"
-                  android:text="54"
-                  android:textColor="#424242"/>
-
-        <TextView android:layout_width="wrap_content"
-                  android:layout_height="wrap_content"
-                  android:layout_marginRight="20dp"
-                  android:text="6,071"
-                  android:textColor="#424242"/>
-        <TextView android:layout_width="wrap_content"
-                  android:layout_height="wrap_content"
-                  android:text="112"
-                  android:textColor="#424242"/>
-
-    </LinearLayout>
-</RelativeLayout>
-
-    <RelativeLayout android:layout_width="match_parent"
-                                     android:layout_height="wrap_content"
-                                     android:padding="15dp">
-    <LinearLayout android:layout_width="wrap_content"
-                  android:layout_height="wrap_content"
-                  android:gravity="center_vertical"
-                  android:orientation="horizontal">
-        <TextView android:layout_width="wrap_content"
-                  android:layout_height="wrap_content"
-                  android:text="4"
-                  android:textStyle="bold" android:textColor="#424242"/>
-        <ImageView android:layout_width="30dp"
-                   android:layout_height="30dp"
-                   android:layout_marginLeft="10dp"
-                   android:layout_gravity="center_vertical"
-                   android:src="@drawable/south_africa"/>
-
-        <TextView android:layout_width="wrap_content"
-                  android:layout_height="wrap_content"
-                  android:layout_marginLeft="10dp"
-                  android:text="South Africa"
-                  android:textColor="#424242"/>
-
-    </LinearLayout>
-
-    <LinearLayout android:layout_width="wrap_content"
-                  android:layout_height="wrap_content"
-                  android:layout_centerVertical="true"
-                  android:layout_alignParentEnd="true"
-                  android:orientation="horizontal"
-                  android:layout_alignParentRight="true">
-        <TextView android:layout_width="wrap_content"
-                  android:layout_height="wrap_content"
-                  android:layout_marginRight="80dp"
-                  android:text="55"
-                  android:textColor="#424242"/>
-
-        <TextView android:layout_width="wrap_content"
-                  android:layout_height="wrap_content"
-                  android:layout_marginRight="20dp"
-                  android:text="6,181"
-                  android:textColor="#424242"/>
-        <TextView android:layout_width="wrap_content"
-                  android:layout_height="wrap_content"
-                  android:text="112"
-                  android:textColor="#424242"/>
-
-    </LinearLayout>
-</RelativeLayout>
-
-    <RelativeLayout android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="15dp">
-        <LinearLayout android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:gravity="center_vertical"
-                      android:orientation="horizontal">
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:text="5"
-                      android:textStyle="bold" android:textColor="#424242"/>
-            <ImageView android:layout_width="30dp"
-                       android:layout_height="30dp"
-                       android:layout_marginLeft="10dp"
-                       android:layout_gravity="center_vertical"
-                       android:src="@drawable/australia"/>
-
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:layout_marginLeft="10dp"
-                      android:text="Australia"
-                      android:textColor="#424242"/>
-
-        </LinearLayout>
-
-        <LinearLayout android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:layout_centerVertical="true"
-                      android:layout_alignParentEnd="true"
-                      android:orientation="horizontal"
-                      android:layout_alignParentRight="true">
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:layout_marginRight="80dp"
-                      android:text="53"
-                      android:textColor="#424242"/>
-
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:layout_marginRight="20dp"
-                      android:text="5,701"
-                      android:textColor="#424242"/>
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:text="108"
-                      android:textColor="#424242"/>
-
-        </LinearLayout>
-    </RelativeLayout>
-
-    <RelativeLayout android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="15dp">
-        <LinearLayout android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:gravity="center_vertical"
-                      android:orientation="horizontal">
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:text="6"
-                      android:textStyle="bold" android:textColor="#424242"/>
-            <ImageView android:layout_width="30dp"
-                       android:layout_height="30dp"
-                       android:layout_marginLeft="10dp"
-                       android:layout_gravity="center_vertical"
-                       android:src="@drawable/pakistan"/>
-
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:layout_marginLeft="10dp"
-                      android:text="Pakistan"
-                      android:textColor="#424242"/>
-
-        </LinearLayout>
-
-        <LinearLayout android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:layout_centerVertical="true"
-                      android:layout_alignParentEnd="true"
-                      android:orientation="horizontal"
-                      android:layout_alignParentRight="true">
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:layout_marginRight="80dp"
-                      android:text="53"
-                      android:textColor="#424242"/>
-
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:layout_marginRight="28dp"
-                      android:text="5,147"
-                      android:textColor="#424242"/>
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:text="97"
-                      android:textColor="#424242"/>
-
-        </LinearLayout>
-    </RelativeLayout>
-
-    <RelativeLayout android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="15dp">
-        <LinearLayout android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:gravity="center_vertical"
-                      android:orientation="horizontal">
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:text="7"
-                      android:textStyle="bold" android:textColor="#424242"/>
-            <ImageView android:layout_width="30dp"
-                       android:layout_height="30dp"
-                       android:layout_marginLeft="10dp"
-                       android:layout_gravity="center_vertical"
-                       android:src="@drawable/bangladesh"/>
-
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:layout_marginLeft="10dp"
-                      android:text="Bangladesh"
-                      android:textColor="#424242"/>
-
-        </LinearLayout>
-
-        <LinearLayout android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:layout_centerVertical="true"
-                      android:layout_alignParentEnd="true"
-                      android:orientation="horizontal"
-                      android:layout_alignParentRight="true">
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:layout_marginRight="80dp"
-                      android:text="42"
-                      android:textColor="#424242"/>
-
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:layout_marginRight="28dp"
-                      android:text="3,792"
-                      android:textColor="#424242"/>
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:text="90"
-                      android:textColor="#424242"/>
-
-        </LinearLayout>
-    </RelativeLayout>
-
-    <RelativeLayout android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="15dp">
-        <LinearLayout android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:gravity="center_vertical"
-                      android:orientation="horizontal">
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:text="8"
-                      android:textStyle="bold" android:textColor="#424242"/>
-            <ImageView android:layout_width="30dp"
-                       android:layout_height="30dp"
-                       android:layout_marginLeft="10dp"
-                       android:layout_gravity="center_vertical"
-                       android:src="@drawable/sri_lanka"/>
-
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:layout_marginLeft="10dp"
-                      android:text="Sri Lanka"
-                      android:textColor="#424242"/>
-
-        </LinearLayout>
-
-        <LinearLayout android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:layout_centerVertical="true"
-                      android:layout_alignParentEnd="true"
-                      android:orientation="horizontal"
-                      android:layout_alignParentRight="true">
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:layout_marginRight="80dp"
-                      android:text="62"
-                      android:textColor="#424242"/>
-
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:layout_marginRight="28dp"
-                      android:text="4,734"
-                      android:textColor="#424242"/>
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:text="76"
-                      android:textColor="#424242"/>
-
-        </LinearLayout>
-    </RelativeLayout>
-
-    <RelativeLayout android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="15dp">
-        <LinearLayout android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:gravity="center_vertical"
-                      android:orientation="horizontal">
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:text="9"
-                      android:textStyle="bold" android:textColor="#424242"/>
-            <ImageView android:layout_width="30dp"
-                       android:layout_height="30dp"
-                       android:layout_marginLeft="10dp"
-                       android:layout_gravity="center_vertical"
-                       android:src="@drawable/west_indies"/>
-
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:layout_marginLeft="10dp"
-                      android:text="West Indies"
-                      android:textColor="#424242"/>
-
-        </LinearLayout>
-
-        <LinearLayout android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:layout_centerVertical="true"
-                      android:layout_alignParentEnd="true"
-                      android:orientation="horizontal"
-                      android:layout_alignParentRight="true">
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:layout_marginRight="80dp"
-                      android:text="44"
-                      android:textColor="#424242"/>
-
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:layout_marginRight="28dp"
-                      android:text="3,351"
-                      android:textColor="#424242"/>
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:text="76"
-                      android:textColor="#424242"/>
-
-        </LinearLayout>
-    </RelativeLayout>
-
-    <RelativeLayout android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="15dp">
-        <LinearLayout android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:gravity="center_vertical"
-                      android:orientation="horizontal">
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:text="10"
-                      android:textStyle="bold" android:textColor="#424242"/>
-            <ImageView android:layout_width="30dp"
-                       android:layout_height="30dp"
-                       android:layout_marginLeft="10dp"
-                       android:layout_gravity="center_vertical"
-                       android:src="@drawable/afghanistan"/>
-
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:layout_marginLeft="10dp"
-                      android:text="Afghanistan"
-                      android:textColor="#424242"/>
-
-        </LinearLayout>
-
-        <LinearLayout android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:layout_centerVertical="true"
-                      android:layout_alignParentEnd="true"
-                      android:orientation="horizontal"
-                      android:layout_alignParentRight="true">
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:layout_marginRight="80dp"
-                      android:text="40"
-                      android:textColor="#424242"/>
-
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:layout_marginRight="28dp"
-                      android:text="2,554"
-                      android:textColor="#424242"/>
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:text="64"
-                      android:textColor="#424242"/>
-
-        </LinearLayout>
-    </RelativeLayout>
-
-    </LinearLayout>
     </ScrollView>
 </LinearLayout>

@@ -6,7 +6,34 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context=".activities.PlayersActivity">
+        tools:context=".view.view.activities.PlayersActivity">
+
+
+    <RelativeLayout
+            android:id="@+id/top_layout"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="#FF1E50">
+
+        <ImageView
+                    android:id="@+id/iv_back"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerVertical="true"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_left"/>
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Players"
+                  android:textStyle="bold"
+                  android:layout_centerInParent="true"
+                  android:fontFamily="serif-monospace"
+                  android:textAllCaps="true"
+                  android:textColor="@android:color/white"
+                  android:textSize="16sp"/>
+
+    </RelativeLayout>
 
     <android.support.v7.widget.RecyclerView
             android:id="@+id/rv_playersList"

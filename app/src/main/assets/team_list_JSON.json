@@ -7,278 +7,270 @@
             "icon":"england_team",
             "player_list":[
                 {
-                    "player_one":{
-                        "name": "Eoin Morgan (Captain)",
-                        "image":"morgan"
-                    },
-                    "player_two":{
-                        "name":"Jonny Bairstow",
-                        "image":"jonny"
-                    },
-                    "player_three":{
-                        "name":"Jason Roy",
-                        "image":"jason"
-                    },
-                    "player_four":{
-                        "name":"Joe Root",
-                        "image":"root"
-                    },
-                    "player_five":{
-                        "name":"Alex Hales",
-                        "image":"hales"
-                    },
-                    "player_six":{
-                        "name":"Liam Plunkett",
-                        "image":"liam"
-                    },
-                    "player_seven":{
-                        "name":"Adil Rashid",
-                        "image":"adil"
-                    },
-                    "player_eight":{
-                        "name":"Mark Wood",
-                        "image":"wood"
-                    },
-                    "player_nine":{
-                        "name":"Ben Stokes",
-                        "image":"stokes"
-                    },
-                    "player_ten":{
-                        "name":"Moeen Ali",
-                        "image":"moeen"
-                    },
-                    "player_eleven":{
-                        "name":"Chris Woakes",
-                        "image":"woakes"
-                    },
-                    "player_twelve":{
-                        "name":"Tom Curran",
-                        "image":"curran"
-                    },
-                    "player_thirteen":{
-                        "name":"Joe Denly",
-                        "image":"denly"
-                    },
-                    "player_fourteen":{
-                        "name":"David Willey",
-                        "image":"willey"
-                    },
-                    "player_fifteen":{
-                        "name":"Jos Buttler (WK)",
-                        "image":"buttler"
-                    }
+                    "name": "Eoin Morgan (Captain)",
+                    "image":"morgan"
+                },
+                {
+                    "name":"Jonny Bairstow",
+                    "image":"jonny"
+                },
+                {
+                    "name":"Jason Roy",
+                    "image":"jason"
+                },
+                {
+                    "name":"Joe Root",
+                    "image":"root"
+                },
+                {
+                    "name":"Alex Hales",
+                    "image":"hales"
+                },
+                {
+                    "name":"Liam Plunkett",
+                    "image":"liam"
+                },
+                {
+                    "name":"Adil Rashid",
+                    "image":"adil"
+                },
+                {
+                    "name":"Mark Wood",
+                    "image":"wood"
+                },
+                {
+                    "name":"Ben Stokes",
+                    "image":"stokes"
+                },
+                {
+                    "name":"Moeen Ali",
+                    "image":"moeen"
+                },
+                {
+                    "name":"Chris Woakes",
+                    "image":"woakes"
+                },
+                {
+                    "name":"Tom Curran",
+                    "image":"curran"
+                },
+                {
+                    "name":"Joe Denly",
+                    "image":"denly"
+                },
+                {
+                    "name":"David Willey",
+                    "image":"willey"
+                },
+                {
+                    "name":"Jos Buttler (WK)",
+                    "image":"buttler"
                 }
+
             ]
         },
-
         {
             "team_name":"India",
             "team_ranking":"2nd",
             "icon":"india_team",
             "player_list":[
-                {
-                    "player_one":{
-                        "name": "Virat Kohli (Captain)",
-                        "image":"kohli"
-                    },
-                    "player_two":{
-                        "name":"Rohit Sharma",
-                        "image":"rohit"
-                    },
-                    "player_three":{
-                        "name":"Shikhar Dhawan",
-                        "image":"dhawan"
-                    },
-                    "player_four":{
-                        "name":"Vijay Shankar",
-                        "image":"vijay"
-                    },
-                    "player_five":{
-                        "name":"Hardik Pandya",
-                        "image":"pandya"
-                    },
-                    "player_six":{
-                        "name":"Kedar Jadhav",
-                        "image":"jadhav"
-                    },
-                    "player_seven":{
-                        "name":"Ravindra Jadeja",
-                        "image":"jadeja"
-                    },
-                    "player_eight":{
-                        "name":"Lokesh Rahul",
-                        "image":"rahul"
-                    },
-                    "player_nine":{
-                        "name":"MS Dhoni (WK)",
-                        "image":"msd"
-                    },
-                    "player_ten":{
-                        "name":"Dinesh Karthik",
-                        "image":"dk"
-                    },
-                    "player_eleven":{
-                        "name":"Kuldeep Yadav",
-                        "image":"kuldeep"
-                    },
-                    "player_twelve":{
-                        "name":"Mohammed Shami",
-                        "image":"shami"
-                    },
-                    "player_thirteen":{
-                        "name":"Jasprit Bumrah",
-                        "image":"bumrah"
-                    },
-                    "player_fourteen":{
-                        "name":"Bhubneshwar Kumar",
-                        "image":"kumar"
-                    },
-                    "player_fifteen":{
-                        "name":"Yuzvendra Chahal",
-                        "image":"chahal"
-                    }
-                }
-            ]
-        },
 
-        {
-            "team_name":"New Zealand",
-            "team_ranking":"3rd",
-            "icon":"new_zealand_team",
-            "player_list":[
                 {
-
-                    "player_one":{
-                        "name": "Kane Williamson (Captain)",
-                        "image":"kane"
-                    },
-                    "player_two":{
-                        "name":"Martin Guptill",
-                        "image":"guptill"
-                    },
-                    "player_three":{
-                        "name":"Ross Taylor",
-                        "image":"taylor"
-                    },
-                    "player_four":{
-                        "name":"Colin Munro",
-                        "image":"munro"
-                    },
-                    "player_five":{
-                        "name":"James Neesham",
-                        "image":"neesham"
-                    },
-                    "player_six":{
-                        "name":"Mitchell Santner",
-                        "image":"santner"
-                    },
-                    "player_seven":{
-                        "name":"Tom Blundell",
-                        "image":"blundell"
-                    },
-                    "player_eight":{
-                        "name":"Tom Latham (WK)",
-                        "image":"latham"
-                    },
-                    "player_nine":{
-                        "name":"Henry Nicholas",
-                        "image":"henry"
-                    },
-                    "player_ten":{
-                        "name":"Trent Boult",
-                        "image":"boult"
-                    },
-                    "player_eleven":{
-                        "name":"Lockie Ferguson",
-                        "image":"lockie"
-                    },
-                    "player_twelve":{
-                        "name":"Matt Henry",
-                        "image":"matt"
-                    },
-                    "player_thirteen":{
-                        "name":"Colin de Grandhomme",
-                        "image":"grandhomme"
-                    },
-                    "player_fourteen":{
-                        "name":"Tim Southee",
-                        "image":"southee"
-                    },
-                    "player_fifteen":{
-                        "name":"Ish Sodhi",
-                        "image":"sodhi"
-                    }
+                    "name": "Virat Kohli (Captain)",
+                    "image":"kohli"
+                },
+                {
+                    "name":"Rohit Sharma",
+                    "image":"rohit"
+                },
+                {
+                    "name":"Shikhar Dhawan",
+                    "image":"dhawan"
+                },
+                {
+                    "name":"Vijay Shankar",
+                    "image":"vijay"
+                },
+                {
+                    "name":"Hardik Pandya",
+                    "image":"pandya"
+                },
+                {
+                    "name":"Kedar Jadhav",
+                    "image":"jadhav"
+                },
+                {
+                    "name":"Ravindra Jadeja",
+                    "image":"jadeja"
+                },
+                {
+                    "name":"Lokesh Rahul",
+                    "image":"rahul"
+                },
+                {
+                    "name":"MS Dhoni (WK)",
+                    "image":"msd"
+                },
+                {
+                    "name":"Dinesh Karthik",
+                    "image":"dk"
+                },
+                {
+                    "name":"Kuldeep Yadav",
+                    "image":"kuldeep"
+                },
+                {
+                    "name":"Mohammed Shami",
+                    "image":"shami"
+                },
+                {
+                    "name":"Jasprit Bumrah",
+                    "image":"bumrah"
+                },
+                {
+                    "name":"Bhubneshwar Kumar",
+                    "image":"kumar"
+                },
+                {
+                    "name":"Yuzvendra Chahal",
+                    "image":"chahal"
                 }
             ]
         },
         {
             "team_name":"South Africa",
-            "team_ranking":"4th",
+            "team_ranking":"3rd",
             "icon":"south_africa_team",
             "player_list":[
+
+
                 {
+                    "name": "Faf du Plessis (Captain)",
+                    "image":"duplessis"
+                },
+                {
+                    "name":"Hashim Amla",
+                    "image":"amla"
+                },
+                {
+                    "name":"Quinton de Kock",
+                    "image":"dekock"
+                },
+                {
+                    "name":"Dwaine Pretorius",
+                    "image":"pretorius"
+                },
+                {
+                    "name":"Kagiso Rabada",
+                    "image":"rabada"
+                },
+                {
+                    "name":"David Miller",
+                    "image":"miller"
+                },
+                {
+                    "name":"Aiden Markeam",
+                    "image":"markram"
+                },
+                {
+                    "name":"Rassie van der Dussen",
+                    "image":"rvd"
+                },
+                {
+                    "name":"Jean Paul Duminy",
+                    "image":"jp"
+                },
+                {
+                    "name":"Andlie Phehlukwayo",
+                    "image":"andlie"
+                },
+                {
+                    "name":"Lungi Ngidi",
+                    "image":"ngidi"
+                },
+                {
+                    "name":"Imran Tahir",
+                    "image":"tahir"
+                },
+                {
+                    "name":"Anrich Nortje",
+                    "image":"nortje"
+                },
+                {
+                    "name":"Dale Steyn",
+                    "image":"steyn"
+                },
+                {
+                    "name":"Tabraiz Shamsi",
+                    "image":"shamsi"
+                }
+            ]
+        },
+        {
+            "team_name":"New Zealand",
+            "team_ranking":"4th",
+            "icon":"new_zealand_team",
+            "player_list":[
 
-
-                    "player_one":{
-                        "name": "Faf du Plessis (Captain)",
-                        "image":"duplessis"
-                    },
-                    "player_two":{
-                        "name":"Hashim Amla",
-                        "image":"amla"
-                    },
-                    "player_three":{
-                        "name":"Quinton de Kock",
-                        "image":"dekock"
-                    },
-                    "player_four":{
-                        "name":"Dwaine Pretorius",
-                        "image":"pretorius"
-                    },
-                    "player_five":{
-                        "name":"Kagiso Rabada",
-                        "image":"rabada"
-                    },
-                    "player_six":{
-                        "name":"David Miller",
-                        "image":"miller"
-                    },
-                    "player_seven":{
-                        "name":"Aiden Markeam",
-                        "image":"markram"
-                    },
-                    "player_eight":{
-                        "name":"Rassie van der Dussen",
-                        "image":"rvd"
-                    },
-                    "player_nine":{
-                        "name":"Jean Paul Duminy",
-                        "image":"jp"
-                    },
-                    "player_ten":{
-                        "name":"Andlie Phehlukwayo",
-                        "image":"andlie"
-                    },
-                    "player_eleven":{
-                        "name":"Lungi Ngidi",
-                        "image":"ngidi"
-                    },
-                    "player_twelve":{
-                        "name":"Imran Tahir",
-                        "image":"tahir"
-                    },
-                    "player_thirteen":{
-                        "name":"Anrich Nortje",
-                        "image":"nortje"
-                    },
-                    "player_fourteen":{
-                        "name":"Dale Steyn",
-                        "image":"steyn"
-                    },
-                    "player_fifteen":{
-                        "name":"Tabraiz Shamsi",
-                        "image":"shamsi"
-                    }
+                {
+                    "name": "Kane Williamson (Captain)",
+                    "image":"kane"
+                },
+                {
+                    "name":"Martin Guptill",
+                    "image":"guptill"
+                },
+                {
+                    "name":"Ross Taylor",
+                    "image":"taylor"
+                },
+                {
+                    "name":"Colin Munro",
+                    "image":"munro"
+                },
+                {
+                    "name":"James Neesham",
+                    "image":"neesham"
+                },
+                {
+                    "name":"Mitchell Santner",
+                    "image":"santner"
+                },
+                {
+                    "name":"Tom Blundell",
+                    "image":"blundell"
+                },
+                {
+                    "name":"Tom Latham (WK)",
+                    "image":"latham"
+                },
+                {
+                    "name":"Henry Nicholas",
+                    "image":"henry"
+                },
+                {
+                    "name":"Trent Boult",
+                    "image":"boult"
+                },
+                {
+                    "name":"Lockie Ferguson",
+                    "image":"lockie"
+                },
+                {
+                    "name":"Matt Henry",
+                    "image":"matt"
+                },
+                {
+                    "name":"Colin de Grandhomme",
+                    "image":"grandhomme"
+                },
+                {
+                    "name":"Tim Southee",
+                    "image":"southee"
+                },
+                {
+                    "name":"Ish Sodhi",
+                    "image":"sodhi"
                 }
             ]
         },
@@ -288,68 +280,64 @@
             "icon":"australia_team",
             "player_list":[
                 {
-
-
-                    "player_one":{
-                        "name": "Aaron Finch (Captain)",
-                        "image":"finch"
-                    },
-                    "player_two":{
-                        "name":"David Warner",
-                        "image":"warner"
-                    },
-                    "player_three":{
-                        "name":"Steven Smith",
-                        "image":"smith"
-                    },
-                    "player_four":{
-                        "name":"Usman Khwaja",
-                        "image":"khwaja"
-                    },
-                    "player_five":{
-                        "name":"Shaun Marsh",
-                        "image":"marsh"
-                    },
-                    "player_six":{
-                        "name":"Glenn Maxwell",
-                        "image":"maxwell"
-                    },
-                    "player_seven":{
-                        "name":"Marcus Stoinis",
-                        "image":"stoinis"
-                    },
-                    "player_eight":{
-                        "name":"Jhye Richardson",
-                        "image":"jhye"
-                    },
-                    "player_nine":{
-                        "name":"Alex Carey (WK)",
-                        "image":"alex"
-                    },
-                    "player_ten":{
-                        "name":"Pat Cummins",
-                        "image":"cummins"
-                    },
-                    "player_eleven":{
-                        "name":"Mitchell Starc",
-                        "image":"starc"
-                    },
-                    "player_twelve":{
-                        "name":"Nathan Coulter-Nile",
-                        "image":"nathan"
-                    },
-                    "player_thirteen":{
-                        "name":"Jason Behrendroff",
-                        "image":"behrendroff"
-                    },
-                    "player_fourteen":{
-                        "name":"Adam Zampa",
-                        "image":"zampa"
-                    },
-                    "player_fifteen":{
-                        "name":"Nathan Lyon",
-                        "image":"lyon"
-                    }
+                    "name": "Aaron Finch (Captain)",
+                    "image":"finch"
+                },
+                {
+                    "name":"David Warner",
+                    "image":"warner"
+                },
+                {
+                    "name":"Steven Smith",
+                    "image":"smith"
+                },
+                {
+                    "name":"Usman Khwaja",
+                    "image":"khwaja"
+                },
+                {
+                    "name":"Shaun Marsh",
+                    "image":"marsh"
+                },
+                {
+                    "name":"Glenn Maxwell",
+                    "image":"maxwell"
+                },
+                {
+                    "name":"Marcus Stoinis",
+                    "image":"stoinis"
+                },
+                {
+                    "name":"Jhye Richardson",
+                    "image":"jhye"
+                },
+                {
+                    "name":"Alex Carey (WK)",
+                    "image":"alex"
+                },
+                {
+                    "name":"Pat Cummins",
+                    "image":"cummins"
+                },
+                {
+                    "name":"Mitchell Starc",
+                    "image":"starc"
+                },
+                {
+                    "name":"Nathan Coulter-Nile",
+                    "image":"nathan"
+                },
+                {
+                    "name":"Jason Behrendroff",
+                    "image":"behrendroff"
+                },
+                {
+                    "name":"Adam Zampa",
+                    "image":"zampa"
+                },
+                {
+                    "name":"Nathan Lyon",
+                    "image":"lyon"
                 }
             ]
         },
@@ -359,276 +347,265 @@
             "icon":"pakistan_team",
             "player_list":[
                 {
-                    "player_one":{
-                        "name": "Sarfaraz Ahmed (Captain/WK)",
-                        "image":"sarfraz"
-                    },
-                    "player_two":{
-                        "name":"Fakhar Zaman",
-                        "image":"fakhar"
-                    },
-                    "player_three":{
-                        "name":"Imam ul Haque",
-                        "image":"imam"
-                    },
-                    "player_four":{
-                        "name":"Babar Azam",
-                        "image":"babar"
-                    },
-                    "player_five":{
-                        "name":"Abid Ali",
-                        "image":"abid"
-                    },
-                    "player_six":{
-                        "name":"Shoaib Malik",
-                        "image":"malik"
-                    },
-                    "player_seven":{
-                        "name":"Mohammed Hafiz",
-                        "image":"hafeez"
-                    },
-                    "player_eight":{
-                        "name":"Haris Sohail",
-                        "image":"sohail"
-                    },
-                    "player_nine":{
-                        "name":"Faheem Ashraf",
-                        "image":"faheem"
-                    },
-                    "player_ten":{
-                        "name":"Shadab Khan",
-                        "image":"shadab"
-                    },
-                    "player_eleven":{
-                        "name":"Imad Wasim",
-                        "image":"imad"
-                    },
-                    "player_twelve":{
-                        "name":"Shahin Afridi",
-                        "image":"afridi"
-                    },
-                    "player_thirteen":{
-                        "name":"Hasan Ali",
-                        "image":"hasan"
-                    },
-                    "player_fourteen":{
-                        "name":"Junaid Khan",
-                        "image":"junaid"
-                    },
-                    "player_fifteen":{
-                        "name":"Mohammad Hasnain",
-                        "image":"hasnain"
-                    }
+                    "name": "Sarfaraz Ahmed(C/WK)",
+                    "image":"sarfraz"
+                },
+                {
+                    "name":"Fakhar Zaman",
+                    "image":"fakhar"
+                },
+                {
+                    "name":"Imam ul Haque",
+                    "image":"imam"
+                },
+                {
+                    "name":"Babar Azam",
+                    "image":"babar"
+                },
+                {
+                    "name":"Abid Ali",
+                    "image":"abid"
+                },
+                {
+                    "name":"Shoaib Malik",
+                    "image":"malik"
+                },
+                {
+                    "name":"Mohammed Hafiz",
+                    "image":"hafeez"
+                },
+                {
+                    "name":"Haris Sohail",
+                    "image":"sohail"
+                },
+                {
+                    "name":"Faheem Ashraf",
+                    "image":"faheem"
+                },
+                {
+                    "name":"Shadab Khan",
+                    "image":"shadab"
+                },
+                {
+                    "name":"Imad Wasim",
+                    "image":"imad"
+                },
+                {
+                    "name":"Shahin Afridi",
+                    "image":"afridi"
+                },
+                {
+                    "name":"Hasan Ali",
+                    "image":"hasan"
+                },
+                {
+                    "name":"Junaid Khan",
+                    "image":"junaid"
+                },
+                {
+                    "name":"Mohammad Hasnain",
+                    "image":"hasnain"
                 }
             ]
         },
-
         {
             "team_name":"Bangladesh",
             "team_ranking":"7th",
             "icon":"bangladesh_team",
             "player_list":[
                 {
-                    "player_one":{
-                        "name": "Mashrafe Mortaza  (Captain)",
-                        "image":"mash"
-                    },
-                    "player_two":{
-                        "name":"Tamim Iqbal",
-                        "image":"tamim"
-                    },
-                    "player_three":{
-                        "name":"Soumya Sarkar",
-                        "image":"sarkar"
-                    },
-                    "player_four":{
-                        "name":"Liton Das",
-                        "image":"liton"
-                    },
-                    "player_five":{
-                        "name":"Sabbir Rahman",
-                        "image":"sabbir"
-                    },
-                    "player_six":{
-                        "name":"Shakib Al Hasan",
-                        "image":"shakib"
-                    },
-                    "player_seven":{
-                        "name":"Mahmudullah Riyad",
-                        "image":"riyad"
-                    },
-                    "player_eight":{
-                        "name":"Mohammad Saifuddin",
-                        "image":"saif"
-                    },
-                    "player_nine":{
-                        "name":"Mosaddek Hossain",
-                        "image":"mosaddek"
-                    },
-                    "player_ten":{
-                        "name":"Mehidy Hasan Miraz",
-                        "image":"miraz"
-                    },
-                    "player_eleven":{
-                        "name":"Mushfiqur Rahim (WK)",
-                        "image":"mushi"
-                    },
-                    "player_twelve":{
-                        "name":"Mohammad Mithun",
-                        "image":"mithun"
-                    },
-                    "player_thirteen":{
-                        "name":"Rubel Hossain",
-                        "image":"rubel"
-                    },
-                    "player_fourteen":{
-                        "name":"Mustafizur Rahman",
-                        "image":"fizz"
-                    },
-                    "player_fifteen":{
-                        "name":"Abu Jayed",
-                        "image":"jayed"
-                    }
-                }
-            ]
-        },
-
-        {
-            "team_name":"Sri Lanka",
-            "team_ranking":"8th",
-            "icon":"sri_lanka_team",
-            "player_list":[
+                    "name": "Mashrafe Mortaza (Captain)",
+                    "image":"mash"
+                },
                 {
-                    "player_one":{
-                        "name": "Dimuth Karunaratne (Captain)",
-                        "image":"dimuth"
-                    },
-                    "player_two":{
-                        "name":"Avishka Fernando",
-                        "image":"fernando"
-                    },
-                    "player_three":{
-                        "name":"Lahiru Thirimanne",
-                        "image":"lahiru"
-                    },
-                    "player_four":{
-                        "name":"Angelo Mathews",
-                        "image":"mathews"
-                    },
-                    "player_five":{
-                        "name":"Dhananjaya De Silva",
-                        "image":"dds"
-                    },
-                    "player_six":{
-                        "name":"Isuru Udana",
-                        "image":"udana"
-                    },
-                    "player_seven":{
-                        "name":"Milinda Siriwardana",
-                        "image":"milinda"
-                    },
-                    "player_eight":{
-                        "name":"Thisara Perara",
-                        "image":"tperara"
-                    },
-                    "player_nine":{
-                        "name":"Jeevan Mendis",
-                        "image":"jeevan"
-                    },
-                    "player_ten":{
-                        "name":"Kusal Perara (WK)",
-                        "image":"kperara"
-                    },
-                    "player_eleven":{
-                        "name":"Kusal Mendis",
-                        "image":"kmendis"
-                    },
-                    "player_twelve":{
-                        "name":"Jeffrey Vandersay",
-                        "image":"Vandersay"
-                    },
-                    "player_thirteen":{
-                        "name":"Lasith Malinga",
-                        "image":"malinga"
-                    },
-                    "player_fourteen":{
-                        "name":"Suranga Lakmal",
-                        "image":"lakmal"
-                    },
-                    "player_fifteen":{
-                        "name":"Nuwan Pradeep",
-                        "image":"nuwan"
-                    }
+                    "name":"Tamim Iqbal",
+                    "image":"tamim"
+                },
+                {
+                    "name":"Soumya Sarkar",
+                    "image":"sarkar"
+                },
+                {
+                    "name":"Liton Das",
+                    "image":"liton"
+                },
+                {
+                    "name":"Sabbir Rahman",
+                    "image":"sabbir"
+                },
+                {
+                    "name":"Shakib Al Hasan",
+                    "image":"shakib"
+                },
+                {
+                    "name":"Mahmudullah Riyad",
+                    "image":"riyad"
+                },
+                {
+                    "name":"Mohammad Saifuddin",
+                    "image":"saif"
+                },
+                {
+                    "name":"Mosaddek Hossain",
+                    "image":"mosaddek"
+                },
+                {
+                    "name":"Mehidy Hasan Miraz",
+                    "image":"miraz"
+                },
+                {
+                    "name":"Mushfiqur Rahim (WK)",
+                    "image":"mushi"
+                },
+                {
+                    "name":"Mohammad Mithun",
+                    "image":"mithun"
+                },
+                {
+                    "name":"Rubel Hossain",
+                    "image":"rubel"
+                },
+                {
+                    "name":"Mustafizur Rahman",
+                    "image":"fizz"
+                },
+                {
+                    "name":"Abu Jayed",
+                    "image":"jayed"
                 }
             ]
         },
         {
             "team_name":"West Indies",
-            "team_ranking":"9th",
+            "team_ranking":"8th",
             "icon":"west_indies_team",
             "player_list":[
                 {
-
-                    "player_one":{
-                        "name": "Jason Holder (Captain)",
-                        "image":"holder"
-                    },
-                    "player_two":{
-                        "name":"Chris Gayle",
-                        "image":"gayle"
-                    },
-                    "player_three":{
-                        "name":"Evin Lewis",
-                        "image":"lewis"
-                    },
-                    "player_four":{
-                        "name":"Shimran Hetmyer",
-                        "image":"hetmyer"
-                    },
-                    "player_five":{
-                        "name":"Darren Bravo",
-                        "image":"bravo"
-                    },
-                    "player_six":{
-                        "name":"Ashley Nurse",
-                        "image":"nurse"
-                    },
-                    "player_seven":{
-                        "name":"Fabian Allen",
-                        "image":"allen"
-                    },
-                    "player_eight":{
-                        "name":"Andre Russell",
-                        "image":"russel"
-                    },
-                    "player_nine":{
-                        "name":"Carlos Brathwaite",
-                        "image":"carlos"
-                    },
-                    "player_ten":{
-                        "name":"Nicholas Pooran (WK)",
-                        "image":"pooran"
-                    },
-                    "player_eleven":{
-                        "name":"Shai Hope",
-                        "image":"hope"
-                    },
-                    "player_twelve":{
-                        "name":"Kemar Roach",
-                        "image":"roach"
-                    },
-                    "player_thirteen":{
-                        "name":"Oshane Thomas",
-                        "image":"thomas"
-                    },
-                    "player_fourteen":{
-                        "name":"Shanon Gabriel",
-                        "image":"gabriel"
-                    },
-                    "player_fifteen":{
-                        "name":"Sheldon Cottrell",
-                        "image":"cottrell"
-                    }
+                    "name": "Jason Holder (Captain)",
+                    "image":"holder"
+                },
+                {
+                    "name":"Chris Gayle",
+                    "image":"gayle"
+                },
+                {
+                    "name":"Evin Lewis",
+                    "image":"lewis"
+                },
+                {
+                    "name":"Shimran Hetmyer",
+                    "image":"hetmyer"
+                },
+                {
+                    "name":"Darren Bravo",
+                    "image":"bravo"
+                },
+                {
+                    "name":"Ashley Nurse",
+                    "image":"nurse"
+                },
+                {
+                    "name":"Fabian Allen",
+                    "image":"allen"
+                },
+                {
+                    "name":"Andre Russell",
+                    "image":"russel"
+                },
+                {
+                    "name":"Carlos Brathwaite",
+                    "image":"carlos"
+                },
+                {
+                    "name":"Nicholas Pooran (WK)",
+                    "image":"pooran"
+                },
+                {
+                    "name":"Shai Hope",
+                    "image":"hope"
+                },
+                {
+                    "name":"Kemar Roach",
+                    "image":"roach"
+                },
+                {
+                    "name":"Oshane Thomas",
+                    "image":"thomas"
+                },
+                {
+                    "name":"Shanon Gabriel",
+                    "image":"gabriel"
+                },
+                {
+                    "name":"Sheldon Cottrell",
+                    "image":"cottrell"
+                }
+            ]
+        },
+        {
+            "team_name":"Sri Lanka",
+            "team_ranking":"9th",
+            "icon":"sri_lanka_team",
+            "player_list":[
+                {
+                    "name": "Dimuth Karunaratne (C)",
+                    "image":"dimuth"
+                },
+                {
+                    "name":"Avishka Fernando",
+                    "image":"fernando"
+                },
+                {
+                    "name":"Lahiru Thirimanne",
+                    "image":"lahiru"
+                },
+                {
+                    "name":"Angelo Mathews",
+                    "image":"mathews"
+                },
+                {
+                    "name":"Dhananjaya De Silva",
+                    "image":"dds"
+                },
+                {
+                    "name":"Isuru Udana",
+                    "image":"udana"
+                },
+                {
+                    "name":"Milinda Siriwardana",
+                    "image":"milinda"
+                },
+                {
+                    "name":"Thisara Perara",
+                    "image":"tperara"
+                },
+                {
+                    "name":"Jeevan Mendis",
+                    "image":"jeevan"
+                },
+                {
+                    "name":"Kusal Perara (WK)",
+                    "image":"kperara"
+                },
+                {
+                    "name":"Kusal Mendis",
+                    "image":"kmendis"
+                },
+                {
+                    "name":"Jeffrey Vandersay",
+                    "image":"andersay"
+                },
+                {
+                    "name":"Lasith Malinga",
+                    "image":"malinga"
+                },
+                {
+                    "name":"Suranga Lakmal",
+                    "image":"lakmal"
+                },
+                {
+                    "name":"Nuwan Pradeep",
+                    "image":"nuwan"
                 }
             ]
         },
@@ -638,68 +615,64 @@
             "icon":"afghanistan_team",
             "player_list":[
                 {
-
-
-                    "player_one":{
-                        "name": "Gulbadin Naib (Captain)",
-                        "image":"naib"
-                    },
-                    "player_two":{
-                        "name":"Noor Ali Zadran",
-                        "image":"noor"
-                    },
-                    "player_three":{
-                        "name":"Hazratullah Zazai",
-                        "image":"zazai"
-                    },
-                    "player_four":{
-                        "name":"Ashgar Afghan",
-                        "image":"afghan"
-                    },
-                    "player_five":{
-                        "name":"Hashmatullah Shahidi",
-                        "image":"shahidi"
-                    },
-                    "player_six":{
-                        "name":"Najibullah Zadran",
-                        "image":"najibullah"
-                    },
-                    "player_seven":{
-                        "name":"Samiullah Shenwari",
-                        "image":"samiullah"
-                    },
-                    "player_eight":{
-                        "name":"Mohammad Nabi",
-                        "image":"nabi"
-                    },
-                    "player_nine":{
-                        "name":"Mohammad Shahzad (WK)",
-                        "image":"shahzad"
-                    },
-                    "player_ten":{
-                        "name":"Rashid Khan",
-                        "image":"rashid"
-                    },
-                    "player_eleven":{
-                        "name":"Dawlat Zadran",
-                        "image":"dawlat"
-                    },
-                    "player_twelve":{
-                        "name":"Aftab Alam",
-                        "image":"aftab"
-                    },
-                    "player_thirteen":{
-                        "name":"Hamid Hasan",
-                        "image":"hamid"
-                    },
-                    "player_fourteen":{
-                        "name":"Mujeeb ur Rahman",
-                        "image":"mujeeb"
-                    },
-                    "player_fifteen":{
-                        "name":"Rahmat Shah",
-                        "image":"rahamt"
-                    }
+                    "name": "Gulbadin Naib (Captain)",
+                    "image":"naib"
+                },
+                {
+                    "name":"Noor Ali Zadran",
+                    "image":"noor"
+                },
+                {
+                    "name":"Hazratullah Zazai",
+                    "image":"zazai"
+                },
+                {
+                    "name":"Ashgar Afghan",
+                    "image":"afghan"
+                },
+                {
+                    "name":"Hashmatullah Shahidi",
+                    "image":"shahidi"
+                },
+                {
+                    "name":"Najibullah Zadran",
+                    "image":"najibullah"
+                },
+                {
+                    "name":"Samiullah Shenwari",
+                    "image":"samiullah"
+                },
+                {
+                    "name":"Mohammad Nabi",
+                    "image":"nabi"
+                },
+                {
+                    "name":"Mohammad Shahzad (WK)",
+                    "image":"shahzad"
+                },
+                {
+                    "name":"Rashid Khan",
+                    "image":"rashid"
+                },
+                {
+                    "name":"Dawlat Zadran",
+                    "image":"dawlat"
+                },
+                {
+                    "name":"Aftab Alam",
+                    "image":"aftab"
+                },
+                {
+                    "name":"Hamid Hasan",
+                    "image":"hamid"
+                },
+                {
+                    "name":"Mujeeb ur Rahman",
+                    "image":"mujeeb"
+                },
+                {
+                    "name":"Rahmat Shah",
+                    "image":"rahamt"
                 }
             ]
         }

@@ -8,11 +8,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.wc19.R
-import com.example.wc19.activities.PlayersActivity
-import com.example.wc19.model.TeamListModel
+import com.example.wc19.view.view.activities.PlayersActivity
+import com.example.wc19.model.TeamModel
 import kotlinx.android.synthetic.main.item_team_list.view.*
 
-class TeamListAdapter(var context: Context, var teamListModel: TeamListModel): RecyclerView.Adapter<TeamListAdapter.TeamHolder>() {
+class TeamListAdapter(var context: Context, var teamListModel: TeamModel): RecyclerView.Adapter<TeamListAdapter.TeamHolder>() {
     override fun onCreateViewHolder(p0: ViewGroup, p1: Int): TeamHolder {
         val view = LayoutInflater.from(p0.context).inflate(R.layout.item_team_list,p0,false)
         return TeamHolder(view)
@@ -34,13 +34,13 @@ class TeamListAdapter(var context: Context, var teamListModel: TeamListModel): R
 
         p0.teamIcon.setImageResource(icon)
 
-//        p0.itemView.setOnClickListener(View.OnClickListener {
-//
-//            var intent = Intent(context, PlayersActivity::class.java)
-//            intent.putExtra("PlayersName",teamListModel.team_list[p1].player_list[p1])
-//            context.startActivity(intent)
-//
-//        })
+        p0.itemView.setOnClickListener(View.OnClickListener {
+
+            var intent = Intent(context, PlayersActivity::class.java)
+            intent.putExtra("PlayersName",teamListModel.team_list[p1])
+            context.startActivity(intent)
+
+        })
     }
 
     class TeamHolder(itemView:View):RecyclerView.ViewHolder(itemView) {

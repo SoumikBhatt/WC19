@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#232882"
+        android:orientation="vertical"
+        tools:context=".view.view.activities.MatchDetailsActivity">
+
+    <RelativeLayout
+            android:id="@+id/top_layout"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="#FF1E50">
+
+        <ImageView
+                android:id="@+id/iv_back_details"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:padding="5dp"
+                android:src="@drawable/ic_left"/>
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Details"
+                  android:textStyle="bold"
+                  android:layout_centerInParent="true"
+                  android:fontFamily="serif-monospace"
+                  android:textAllCaps="true"
+                  android:textColor="@android:color/white"
+                  android:textSize="16sp"/>
+
+    </RelativeLayout>
+
+
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical"
+                  android:layout_alignBottom="@id/top_layout">
+
+        <RelativeLayout android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginBottom="200dp">
+
+            <ImageView
+                    android:id="@+id/iv_team_one_head"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="25dp"
+                    android:src="@drawable/england"
+                    android:scaleType="centerCrop"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"/>
+
+            <TextView
+                    android:id="@+id/tv_team_one_won"
+                    android:layout_width="80dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@id/iv_team_one_head"
+                    android:layout_height="wrap_content"
+                    android:text="England"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="serif-monospace"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="10dp"/>
+
+
+            <TextView
+                    android:id="@+id/tv_team_one_win_match"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@id/tv_team_one_won"
+                    android:layout_height="wrap_content"
+                    android:text="26"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="serif-monospace"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="35dp"/>
+
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+            >
+
+                <TextView
+                        android:text="Head"
+                        android:textColor="@android:color/white"
+                        android:textAllCaps="true"
+                        android:fontFamily="serif-monospace"
+                        android:textStyle="bold"
+                        android:textSize="32sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="25dp"
+                        android:id="@+id/textView"/>
+                <TextView
+                        android:text="To"
+                        android:textColor="@android:color/white"
+                        android:textAllCaps="true"
+                        android:fontFamily="serif-monospace"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"/>
+                <TextView
+                        android:text="Head"
+                        android:textColor="@android:color/white"
+                        android:textAllCaps="true"
+                        android:fontFamily="serif-monospace"
+                        android:textStyle="bold"
+                        android:textSize="32sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"/>
+
+            </LinearLayout>
+
+            <ImageView
+                    android:id="@+id/iv_team_two_head"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="25dp"
+                    android:src="@drawable/south_africa"
+                    android:scaleType="centerCrop"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="25dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"/>
+
+            <TextView
+                    android:id="@+id/tv_team_two_won"
+                    android:layout_width="wrap_content"
+                    android:layout_below="@id/iv_team_two_head"
+                    android:layout_alignParentEnd="true"
+                    android:layout_height="wrap_content"
+                    android:text="South Africa"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="serif-monospace"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_marginRight="10dp"
+                    android:layout_alignParentRight="true"/>
+
+            <TextView
+                    android:id="@+id/tv_team_two_win_match"
+                    android:layout_width="wrap_content"
+                    android:layout_below="@id/tv_team_two_won"
+                    android:layout_alignParentEnd="true"
+                    android:layout_height="wrap_content"
+                    android:text="29"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="serif-monospace"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_marginRight="55dp"
+                    android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+            <ImageView
+                    android:id="@+id/iv_team_one_player"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="25dp"
+                    android:src="@drawable/stokes"
+                    android:scaleType="centerCrop"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"/>
+
+            <TextView
+                    android:id="@+id/tv_team_one_player_name"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@id/iv_team_one_player"
+                    android:layout_height="wrap_content"
+                    android:text="Ben Stokes"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="serif-monospace"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="10dp"/>
+
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+            >
+
+                <TextView
+                        android:text="Players"
+                        android:textColor="@android:color/white"
+                        android:textAllCaps="true"
+                        android:fontFamily="serif-monospace"
+                        android:textStyle="bold"
+                        android:textSize="32sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="25dp"
+                        android:id="@+id/textView2"/>
+                <TextView
+                        android:text="To"
+                        android:textColor="@android:color/white"
+                        android:textAllCaps="true"
+                        android:fontFamily="serif-monospace"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"/>
+                <TextView
+                        android:text="Watch"
+                        android:textColor="@android:color/white"
+                        android:textAllCaps="true"
+                        android:fontFamily="serif-monospace"
+                        android:textStyle="bold"
+                        android:textSize="32sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"/>
+
+            </LinearLayout>
+
+            <ImageView
+                    android:id="@+id/iv_team_two_player"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="25dp"
+                    android:src="@drawable/rabada"
+                    android:scaleType="centerCrop"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="25dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"/>
+
+            <TextView
+                    android:id="@+id/tv_team_two_player_name"
+                    android:layout_width="wrap_content"
+                    android:layout_below="@id/iv_team_two_player"
+                    android:layout_alignParentEnd="true"
+                    android:layout_height="wrap_content"
+                    android:text="Kagiso Rabada"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="serif-monospace"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_marginRight="5dp"
+                    android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
