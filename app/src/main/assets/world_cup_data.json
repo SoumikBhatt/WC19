@@ -10,13 +10,13 @@
                 "country": "England",
                 "flag": "england",
                 "win":26,
-                "player":"ben_stokes"
+                "player":"stokes"
             },
             "team_two":{
                 "country": "South Africa",
                 "flag": "south_africa",
                 "win":29,
-                "player":"kagiso_rabada"
+                "player":"rabada"
             }
         },
 

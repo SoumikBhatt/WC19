@@ -44,8 +44,7 @@
 
         <RelativeLayout android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="50dp"
-                        android:layout_marginBottom="200dp">
+                        android:layout_marginTop="50dp">
 
             <ImageView
                     android:id="@+id/iv_team_one_head"
@@ -57,11 +56,15 @@
                     android:layout_centerVertical="true"
                     android:layout_marginLeft="10dp"/>
 
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:orientation="vertical"
+                          android:layout_marginTop="10dp"
+                          android:layout_below="@id/iv_team_one_head">
+
             <TextView
                     android:id="@+id/tv_team_one_won"
-                    android:layout_width="80dp"
+                    android:layout_width="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:layout_below="@id/iv_team_one_head"
                     android:layout_height="wrap_content"
                     android:text="England"
                     android:textColor="@android:color/white"
@@ -77,12 +80,15 @@
                     android:layout_marginTop="5dp"
                     android:layout_below="@id/tv_team_one_won"
                     android:layout_height="wrap_content"
-                    android:text="26"
+                    android:text="00"
                     android:textColor="@android:color/white"
                     android:fontFamily="serif-monospace"
                     android:textStyle="bold"
                     android:textSize="16sp"
-                    android:layout_marginLeft="35dp"/>
+                    android:layout_marginLeft="35dp" android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="0dp"/>
+
+            </LinearLayout>
 
 
             <LinearLayout
@@ -141,6 +147,13 @@
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentRight="true"/>
 
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:orientation="vertical"
+                          android:layout_marginTop="10dp"
+                          android:layout_below="@id/iv_team_two_head"
+                          android:layout_alignParentEnd="true"
+                          android:layout_alignParentRight="true">
+
             <TextView
                     android:id="@+id/tv_team_two_won"
                     android:layout_width="wrap_content"
@@ -162,7 +175,7 @@
                     android:layout_below="@id/tv_team_two_won"
                     android:layout_alignParentEnd="true"
                     android:layout_height="wrap_content"
-                    android:text="29"
+                    android:text="00"
                     android:layout_marginTop="5dp"
                     android:textColor="@android:color/white"
                     android:fontFamily="serif-monospace"
@@ -170,6 +183,8 @@
                     android:textSize="16sp"
                     android:layout_marginRight="55dp"
                     android:layout_alignParentRight="true"/>
+
+            </LinearLayout>
 
         </RelativeLayout>
 
@@ -192,7 +207,8 @@
                     android:layout_marginTop="5dp"
                     android:layout_below="@id/iv_team_one_player"
                     android:layout_height="wrap_content"
-                    android:text="Ben Stokes"
+                    android:text=""
+                    android:textAllCaps="true"
                     android:textColor="@android:color/white"
                     android:fontFamily="serif-monospace"
                     android:textStyle="bold"
@@ -262,7 +278,8 @@
                     android:layout_below="@id/iv_team_two_player"
                     android:layout_alignParentEnd="true"
                     android:layout_height="wrap_content"
-                    android:text="Kagiso Rabada"
+                    android:text=""
+                    android:textAllCaps="true"
                     android:layout_marginTop="5dp"
                     android:textColor="@android:color/white"
                     android:fontFamily="serif-monospace"

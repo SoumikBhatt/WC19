@@ -1,6 +1,7 @@
 package com.example.wc19.adapters
 
 import android.content.Context
+import android.content.Intent
 import android.content.res.Resources
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
@@ -12,6 +13,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.wc19.R
 import com.example.wc19.model.WCData
+import com.example.wc19.view.view.activities.MatchDetailsActivity
 import kotlinx.android.synthetic.main.item_fixture.view.*
 
 class FixtureAdapter(var context: Context,var wcData: WCData) : RecyclerView.Adapter<FixtureAdapter.FixtureHolder>() {
@@ -50,6 +52,13 @@ class FixtureAdapter(var context: Context,var wcData: WCData) : RecyclerView.Ada
 
         p0.flagTeamOne.setImageResource(resourceID)
         p0.flagTeamTwo.setImageResource(flagIconTwo)
+
+        p0.itemView.setOnClickListener(View.OnClickListener {
+
+            var intent = Intent(context,MatchDetailsActivity::class.java)
+            intent.putExtra(MatchDetailsActivity.DETAILS_KEY,wcData.match_list[p1])
+            context.startActivity(intent)
+        })
     }
 
     class FixtureHolder(itemView:View) : RecyclerView.ViewHolder(itemView) {
