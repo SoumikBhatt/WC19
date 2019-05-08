@@ -3,6 +3,7 @@ package com.example.wc19.view.view.activities
 import android.content.res.Resources
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import com.example.wc19.R
 import com.example.wc19.model.Match
 import kotlinx.android.synthetic.main.activity_match_details.*
@@ -24,8 +25,8 @@ class MatchDetailsActivity : AppCompatActivity() {
         tv_team_one_won.text=objMatchDetails.team_one.country
         tv_team_two_won.text=objMatchDetails.team_two.country
 
-        tv_team_one_win_match.text=""+objMatchDetails.team_one.win
-        tv_team_two_win_match.text=""+objMatchDetails.team_two.win
+        tv_team_one_win_match.text="Win: "+objMatchDetails.team_one.win
+        tv_team_two_win_match.text="Win: "+objMatchDetails.team_two.win
 
         tv_team_one_player_name.text=objMatchDetails.team_one.player
         tv_team_two_player_name.text=objMatchDetails.team_two.player
@@ -43,5 +44,10 @@ class MatchDetailsActivity : AppCompatActivity() {
 
         iv_team_one_player.setImageResource(playerOne)
         iv_team_two_player.setImageResource(playerTwo)
+
+        iv_back_details.setOnClickListener(View.OnClickListener {
+
+            onBackPressed()
+        })
     }
 }
