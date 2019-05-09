@@ -1,5 +1,6 @@
 package com.example.wc19.view.view.activities
 
+import android.content.res.Resources
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v7.widget.LinearLayoutManager
@@ -24,12 +25,20 @@ class PlayersActivity : AppCompatActivity() {
 
         objPlayerList = intent.getSerializableExtra("PlayersName") as Team
 
+        var resources:Resources = applicationContext.resources
+        var teamIcon = resources.getIdentifier(objPlayerList.icon,"drawable",applicationContext.packageName)
+
+        iv_toolbar_image.setImageResource(teamIcon)
+
+        collapsing_tool_bar.title=objPlayerList.team_name
+
+
         var playerListAdapter = PlayerListAdapter(applicationContext,objPlayerList.player_list)
         rv_playersList.adapter = playerListAdapter
 
-        iv_back.setOnClickListener(View.OnClickListener {
-            onBackPressed()
-        })
+//        iv_back.setOnClickListener(View.OnClickListener {
+//            onBackPressed()
+//        })
 
 
     }
