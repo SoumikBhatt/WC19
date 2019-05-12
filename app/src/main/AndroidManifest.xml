@@ -12,6 +12,12 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <activity android:name=".view.view.activities.LiveStreamActivity">
+        </activity>
+        <activity android:name=".view.view.activities.SonyLivActivity">
+        </activity>
+        <activity android:name=".view.view.activities.YoutubeStreamActivity">
+        </activity>
         <activity android:name=".view.view.activities.MatchDetailsActivity">
         </activity>
         <activity android:name=".view.view.activities.PlayersActivity">
@@ -20,6 +26,7 @@
         <activity android:name=".view.view.activities.SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.VIEW"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>

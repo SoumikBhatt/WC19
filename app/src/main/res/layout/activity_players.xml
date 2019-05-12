@@ -23,7 +23,7 @@
                 app:contentScrim="#FF1E50"
                 app:title="Bangladesh"
                 app:expandedTitleGravity="bottom|end"
-                app:collapsedTitleGravity="center"
+                app:collapsedTitleGravity="center|center_horizontal|center_vertical"
         >
 
             <ImageView
