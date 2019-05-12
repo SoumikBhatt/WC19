@@ -12,6 +12,8 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <activity android:name=".view.view.activities.PlayersDetailsActivity">
+        </activity>
         <activity android:name=".view.view.activities.LiveStreamActivity">
         </activity>
         <activity android:name=".view.view.activities.SonyLivActivity">

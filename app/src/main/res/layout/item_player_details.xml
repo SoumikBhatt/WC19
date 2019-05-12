@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+        <ImageView
+                android:id="@+id/iv_player_icon"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="left"
+                android:layout_margin="10dp"
+                android:src="@drawable/shakib"
+                android:scaleType="centerCrop"
+        />
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical">
+            <TextView
+                    android:id="@+id/tv_player_name_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Shakib Al Hasan"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:textColor="#424242"/>
+
+            <TextView
+                    android:id="@+id/tv_player_country_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bangladesh"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textColor="#424242"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <LinearLayout
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#F5F5F5">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Personal Information"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"
+            />
+
+            <TextView
+                    android:id="@+id/tv_player_dob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Born: Nov 1, 1986"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:layout_margin="10dp"
+            />
+
+            <TextView
+                    android:id="@+id/tv_player_age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Age: 32 Years"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:layout_margin="10dp"
+            />
+            <TextView
+                    android:id="@+id/tv_player_role"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Role: Allrounder"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:layout_margin="10dp"
+            />
+
+            <TextView
+                    android:id="@+id/tv_player_batting_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Batting Style: Left Hand Bat"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:layout_margin="10dp"
+            />
+
+            <TextView
+                    android:id="@+id/tv_player_bowling_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bowling Style: Left Arm"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:layout_margin="10dp"
+            />
+
+            <TextView
+                    android:id="@+id/tv_player_major_teams"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Major Teams: Bangladesh, aAdasdm,aDA"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:layout_margin="10dp"
+            />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <TextView
+                    android:id="@+id/tv_player_profile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/shakib_details"
+                    android:textColor="#000000"
+                    android:textSize="13sp"
+                    android:layout_margin="5dp"
+                    android:maxLines="2"
+            />
+
+            <TextView
+                    android:id="@+id/tv_more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|right"
+                    android:text="Read More"
+                    android:textColor="#5B92E5"
+                    android:layout_marginRight="5dp"/>
+
+            <TextView
+                    android:id="@+id/tv_less"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|right"
+                    android:layout_margin="5dp"
+                    android:text="Show Less"
+                    android:textColor="#5B92E5"
+                    android:layout_marginRight="5dp"
+                    android:visibility="gone"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="Batting Career Summary (ODI)"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+            />
+
+            <RelativeLayout android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="horizontal"
+                          android:layout_marginTop="5dp"
+                          android:background="#F5F5F5">
+
+
+                <LinearLayout android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:orientation="vertical"
+                              android:background="#F5F5F5"
+                              android:gravity="center_vertical"
+                              android:layout_margin="10dp"
+                >
+                    <TextView
+                            android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="Matches"
+                              android:textSize="18sp"
+                              android:layout_marginBottom="5dp"
+                              android:textColor="#000000"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="Innings"
+                              android:layout_marginBottom="5dp"
+                              android:textSize="18sp"
+                              android:textColor="#000000"/>
+
+                    <TextView
+                            android:textSize="18sp"
+                            android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="NO"
+                              android:layout_marginBottom="5dp"
+                              android:textColor="#000000"/>
+
+                    <TextView
+
+                            android:textSize="18sp"
+                            android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginBottom="5dp"
+                              android:text="Runs"
+                              android:textColor="#000000"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginBottom="5dp"
+                              android:text="HS"
+                            android:textSize="18sp"
+                              android:textColor="#000000"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginBottom="5dp"
+                              android:text="Avg"
+                            android:textSize="18sp"
+                              android:textColor="#000000"/>
+
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginBottom="5dp"
+                              android:text="BF"
+                              android:textSize="18sp"
+                              android:textColor="#000000"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginBottom="5dp"
+                              android:text="SR"
+                            android:textSize="18sp"
+                              android:textColor="#000000"/>
+
+
+                    <TextView
+
+                            android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginBottom="5dp"
+                              android:text="100"
+                            android:textSize="18sp"
+                              android:textColor="#000000"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginBottom="5dp"
+                              android:text="50"
+                              android:textSize="18sp"
+                              android:textColor="#000000"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginBottom="5dp"
+                              android:text="4s"
+                            android:textSize="18sp"
+                              android:textColor="#000000"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginBottom="5dp"
+                              android:text="6s"
+                              android:textSize="18sp"
+                              android:textColor="#000000"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginBottom="5dp"
+                              android:text="Ct"
+                              android:textSize="18sp"
+                              android:textColor="#000000"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginBottom="5dp"
+                              android:text="St"
+                              android:textSize="18sp"
+                              android:textColor="#000000"/>
+
+                </LinearLayout>
+
+                <LinearLayout android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:orientation="vertical"
+                              android:background="#F5F5F5"
+                              android:gravity="center_vertical"
+                              android:layout_alignParentEnd="true"
+                              android:layout_margin="10dp"
+                >
+                    <TextView
+                            android:id="@+id/tv_player_matches"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="400"
+                            android:textSize="18sp"
+                            android:layout_marginBottom="5dp"
+                            android:textColor="#000000"/>
+
+                    <TextView
+                            android:id="@+id/tv_innings"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="800"
+                            android:layout_marginBottom="5dp"
+                            android:textSize="18sp"
+                            android:textColor="#000000"/>
+
+                    <TextView
+                            android:id="@+id/tv_not_out"
+                            android:textSize="18sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="100"
+                            android:layout_marginBottom="5dp"
+                            android:textColor="#000000"/>
+
+                    <TextView
+                            android:id="@+id/tv_runs"
+                            android:textSize="18sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:text="10000"
+                            android:textColor="#000000"/>
+
+                    <TextView
+                            android:id="@+id/tv_highest_score"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:text="162"
+                            android:textSize="18sp"
+                            android:textColor="#000000"/>
+
+                    <TextView
+                            android:id="@+id/tv_average"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:text="50.65"
+                            android:textSize="18sp"
+                            android:textColor="#000000"/>
+
+                    <TextView android:layout_width="wrap_content"
+                              android:id="@+id/tv_ball_faced"
+                              android:layout_height="wrap_content"
+                              android:layout_marginBottom="5dp"
+                              android:text="19000"
+                              android:textSize="18sp"
+                              android:textColor="#000000"/>
+
+                    <TextView
+                            android:id="@+id/tv_strike_rate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:text="100.00"
+                            android:textSize="18sp"
+                            android:textColor="#000000"/>
+
+
+                    <TextView
+                            android:id="@+id/tv_hundreds"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:text="25"
+                            android:textSize="18sp"
+                            android:textColor="#000000"/>
+
+                    <TextView
+                            android:id="@+id/tv_fifties"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:text="50"
+                            android:textSize="18sp"
+                            android:textColor="#000000"/>
+
+                    <TextView
+                            android:id="@+id/tv_fours"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:text="1000"
+                            android:textSize="18sp"
+                            android:textColor="#000000"/>
+
+                    <TextView
+                            android:id="@+id/tv_six"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:text="500"
+                            android:textSize="18sp"
+                            android:textColor="#000000"/>
+                    <TextView
+                            android:id="@+id/tv_catches"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:text="122"
+                            android:textSize="18sp"
+                            android:textColor="#000000"/>
+
+                    <TextView
+                            android:id="@+id/tv_stumpings"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:text="0"
+                            android:textSize="18sp"
+                            android:textColor="#000000"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

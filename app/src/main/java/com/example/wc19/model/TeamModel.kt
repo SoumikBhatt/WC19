@@ -15,5 +15,6 @@ data class Team(
 
 data class Player(
     val image: String,
-    val name: String
+    val name: String,
+    val pid:Int
 ):Serializable
