@@ -9,77 +9,77 @@
                 {
                     "name": "Eoin Morgan (Captain)",
                     "image":"morgan",
-                    "pid" : 56007
+                    "pid" : 24598
                 },
                 {
                     "name":"Jonny Bairstow",
                     "image":"jonny",
-                    "pid" : 56007
+                    "pid" : 297433
                 },
                 {
                     "name":"Jason Roy",
                     "image":"jason",
-                    "pid" : 56007
+                    "pid" : 298438
                 },
                 {
                     "name":"Joe Root",
                     "image":"root",
-                    "pid" : 56007
+                    "pid" : 303669
                 },
                 {
                     "name":"Alex Hales",
                     "image":"hales",
-                    "pid" : 56007
+                    "pid" : 249866
                 },
                 {
                     "name":"Liam Plunkett",
                     "image":"liam",
-                    "pid" : 56007
+                    "pid" : 19264
                 },
                 {
                     "name":"Adil Rashid",
                     "image":"adil",
-                    "pid" : 56007
+                    "pid" : 244497
                 },
                 {
                     "name":"Mark Wood",
                     "image":"wood",
-                    "pid" : 56007
+                    "pid" : 351588
                 },
                 {
                     "name":"Ben Stokes",
                     "image":"stokes",
-                    "pid" : 56007
+                    "pid" : 311158
                 },
                 {
                     "name":"Moeen Ali",
                     "image":"moeen",
-                    "pid" : 56007
+                    "pid" : 8917
                 },
                 {
                     "name":"Chris Woakes",
                     "image":"woakes",
-                    "pid" : 56007
+                    "pid" : 247235
                 },
                 {
                     "name":"Tom Curran",
                     "image":"curran",
-                    "pid" : 56007
+                    "pid" : 550235
                 },
                 {
                     "name":"Joe Denly",
                     "image":"denly",
-                    "pid" : 56007
+                    "pid" : 12454
                 },
                 {
                     "name":"David Willey",
                     "image":"willey",
-                    "pid" : 56007
+                    "pid" : 308251
                 },
                 {
                     "name":"Jos Buttler (WK)",
                     "image":"buttler",
-                    "pid" : 56007
+                    "pid" : 308967
                 }
 
             ]
@@ -93,76 +93,77 @@
                 {
                     "name": "Virat Kohli (Captain)",
                     "image":"kohli",
-                    "pid" : 56007
+                    "pid" : 253802
                 },
                 {
                     "name":"Rohit Sharma",
                     "image":"rohit",
-                    "pid" : 56007
+                    "pid" : 34102
                 },
                 {
                     "name":"Shikhar Dhawan",
                     "image":"dhawan",
-                    "pid" : 56007
+                    "pid" : 28235
                 },
                 {
                     "name":"Vijay Shankar",
                     "image":"vijay",
-                    "pid" : 56007
+                    "pid" : 477021
                 },
                 {
                     "name":"Hardik Pandya",
                     "image":"pandya",
-                    "pid" : 56007
+                    "pid" : 625371
                 },
                 {
                     "name":"Kedar Jadhav",
                     "image":"jadhav",
-                    "pid" : 56007
+                    "pid" : 290716
                 },
                 {
                     "name":"Ravindra Jadeja",
                     "image":"jadeja",
-                    "pid" : 56007
+                    "pid" : 234675
                 },
                 {
                     "name":"Lokesh Rahul",
                     "image":"rahul",
-                    "pid" : 56007
+                    "pid" : 422108
                 },
                 {
                     "name":"MS Dhoni (WK)",
                     "image":"msd",
-                    "pid" : 56007
+                    "pid" : 28081
                 },
                 {
                     "name":"Dinesh Karthik",
                     "image":"dk",
-                    "pid" : 56007
+                    "pid" : 30045
                 },
                 {
                     "name":"Kuldeep Yadav",
                     "image":"kuldeep",
-                    "pid" : 56007
+                    "pid" : 559235
                 },
                 {
                     "name":"Mohammed Shami",
                     "image":"shami",
-                    "pid" : 56007
+                    "pid" : 481896
                 },
                 {
                     "name":"Jasprit Bumrah",
-                    "image":"bumrah"
+                    "image":"bumrah",
+                    "pid" : 625383
                 },
                 {
                     "name":"Bhubneshwar Kumar",
                     "image":"kumar",
-                    "pid" : 56007
+                    "pid" : 326016
                 },
                 {
                     "name":"Yuzvendra Chahal",
                     "image":"chahal",
-                    "pid" : 56007
+                    "pid" : 430246
                 }
             ]
         },
@@ -175,63 +176,78 @@
 
                 {
                     "name": "Faf du Plessis (Captain)",
-                    "image":"duplessis"
+                    "image":"duplessis",
+                    "pid" : 44828
                 },
                 {
                     "name":"Hashim Amla",
-                    "image":"amla"
+                    "image":"amla",
+                    "pid" : 43906
                 },
                 {
                     "name":"Quinton de Kock",
-                    "image":"dekock"
+                    "image":"dekock",
+                    "pid" : 379143
                 },
                 {
                     "name":"Dwaine Pretorius",
-                    "image":"pretorius"
+                    "image":"pretorius",
+                    "pid" : 327830
                 },
                 {
                     "name":"Kagiso Rabada",
-                    "image":"rabada"
+                    "image":"rabada",
+                    "pid" : 550215
                 },
                 {
                     "name":"David Miller",
-                    "image":"miller"
+                    "image":"miller",
+                    "pid" : 321777
                 },
                 {
-                    "name":"Aiden Markeam",
-                    "image":"markram"
+                    "name":"Aiden Markram",
+                    "image":"markram",
+                    "pid" : 600498
                 },
                 {
                     "name":"Rassie van der Dussen",
-                    "image":"rvd"
+                    "image":"rvd",
+                    "pid" : 337790
                 },
                 {
                     "name":"Jean Paul Duminy",
-                    "image":"jp"
+                    "image":"jp",
+                    "pid" : 44932
                 },
                 {
                     "name":"Andlie Phehlukwayo",
-                    "image":"andlie"
+                    "image":"andlie",
+                    "pid" : 540316
                 },
                 {
                     "name":"Lungi Ngidi",
-                    "image":"ngidi"
+                    "image":"ngidi",
+                    "pid" : 542023
                 },
                 {
                     "name":"Imran Tahir",
-                    "image":"tahir"
+                    "image":"tahir",
+                    "pid" : 40618
                 },
                 {
                     "name":"Anrich Nortje",
-                    "image":"nortje"
+                    "image":"nortje",
+                    "pid" : 481979
                 },
                 {
                     "name":"Dale Steyn",
-                    "image":"steyn"
+                    "image":"steyn",
+                    "pid" : 47492
                 },
                 {
                     "name":"Tabraiz Shamsi",
-                    "image":"shamsi"
+                    "image":"shamsi",
+                    "pid" : 379145
                 }
             ]
         },
@@ -244,42 +260,42 @@
                 {
                     "name": "Kane Williamson (Captain)",
                     "image":"kane",
-                    "pid" : 56007
+                    "pid" : 277906
                 },
                 {
                     "name":"Martin Guptill",
                     "image":"guptill",
-                    "pid" : 56007
+                    "pid" : 226492
                 },
                 {
                     "name":"Ross Taylor",
                     "image":"taylor",
-                    "pid" : 56007
+                    "pid" : 38699
                 },
                 {
                     "name":"Colin Munro",
                     "image":"munro",
-                    "pid" : 56007
+                    "pid" : 232359
                 },
                 {
                     "name":"James Neesham",
                     "image":"neesham",
-                    "pid" : 56007
+                    "pid" : 355269
                 },
                 {
                     "name":"Mitchell Santner",
                     "image":"santner",
-                    "pid" : 56007
+                    "pid" : 502714
                 },
                 {
                     "name":"Tom Blundell",
                     "image":"blundell",
-                    "pid" : 56007
+                    "pid" : 440516
                 },
                 {
                     "name":"Tom Latham (WK)",
                     "image":"latham",
-                    "pid" : 56007
+                    "pid" : 388802
                 },
                 {
                     "name":"Henry Nicholas",
@@ -289,32 +305,32 @@
                 {
                     "name":"Trent Boult",
                     "image":"boult",
-                    "pid" : 56007
+                    "pid" : 277912
                 },
                 {
                     "name":"Lockie Ferguson",
                     "image":"lockie",
-                    "pid" : 56007
+                    "pid" : 493773
                 },
                 {
                     "name":"Matt Henry",
                     "image":"matt",
-                    "pid" : 56007
+                    "pid" : 506612
                 },
                 {
                     "name":"Colin de Grandhomme",
                     "image":"grandhomme",
-                    "pid" : 56007
+                    "pid" : 55395
                 },
                 {
                     "name":"Tim Southee",
                     "image":"southee",
-                    "pid" : 56007
+                    "pid" : 232364
                 },
                 {
                     "name":"Ish Sodhi",
                     "image":"sodhi",
-                    "pid" : 56007
+                    "pid" : 559066
                 }
             ]
         },
@@ -326,77 +342,77 @@
                 {
                     "name": "Aaron Finch (Captain)",
                     "image":"finch",
-                    "pid" : 56007
+                    "pid" : 5334
                 },
                 {
                     "name":"David Warner",
                     "image":"warner",
-                    "pid" : 56007
+                    "pid" : 219889
                 },
                 {
                     "name":"Steven Smith",
                     "image":"smith",
-                    "pid" : 56007
+                    "pid" : 7656
                 },
                 {
                     "name":"Usman Khwaja",
                     "image":"khwaja",
-                    "pid" : 56007
+                    "pid" : 215155
                 },
                 {
                     "name":"Shaun Marsh",
                     "image":"marsh",
-                    "pid" : 56007
+                    "pid" : 6683
                 },
                 {
                     "name":"Glenn Maxwell",
                     "image":"maxwell",
-                    "pid" : 56007
+                    "pid" : 325026
                 },
                 {
                     "name":"Marcus Stoinis",
                     "image":"stoinis",
-                    "pid" : 56007
+                    "pid" : 325012
                 },
                 {
-                    "name":"Jhye Richardson",
+                    "name":"Kane Richardson",
                     "image":"jhye",
-                    "pid" : 56007
+                    "pid" : 272262
                 },
                 {
                     "name":"Alex Carey (WK)",
                     "image":"alex",
-                    "pid" : 56007
+                    "pid" : 326434
                 },
                 {
                     "name":"Pat Cummins",
                     "image":"cummins",
-                    "pid" : 56007
+                    "pid" : 489889
                 },
                 {
                     "name":"Mitchell Starc",
                     "image":"starc",
-                    "pid" : 56007
+                    "pid" : 311592
                 },
                 {
                     "name":"Nathan Coulter-Nile",
                     "image":"nathan",
-                    "pid" : 56007
+                    "pid" : 261354
                 },
                 {
                     "name":"Jason Behrendroff",
                     "image":"behrendroff",
-                    "pid" : 56007
+                    "pid" : 272477
                 },
                 {
                     "name":"Adam Zampa",
                     "image":"zampa",
-                    "pid" : 56007
+                    "pid" : 379504
                 },
                 {
                     "name":"Nathan Lyon",
                     "image":"lyon",
-                    "pid" : 56007
+                    "pid" : 272279
                 }
             ]
         },
@@ -406,79 +422,79 @@
             "icon":"pakistan_team",
             "player_list":[
                 {
-                    "name": "Sarfaraz Ahmed(C/WK)",
+                    "name": "Sarfraz Ahmed(C/WK)",
                     "image":"sarfraz",
-                    "pid" : 56007
+                    "pid" : 227760
                 },
                 {
                     "name":"Fakhar Zaman",
                     "image":"fakhar",
-                    "pid" : 56007
+                    "pid" : 512191
                 },
                 {
                     "name":"Imam ul Haque",
                     "image":"imam",
-                    "pid" : 56007
+                    "pid" : 568276
                 },
                 {
                     "name":"Babar Azam",
                     "image":"babar",
-                    "pid" : 56007
+                    "pid" : 348144
                 },
                 {
                     "name":"Abid Ali",
                     "image":"abid",
-                    "pid" : 56007
+                    "pid" : 39950
                 },
                 {
                     "name":"Shoaib Malik",
                     "image":"malik",
-                    "pid" : 56007
+                    "pid" : 42657
                 },
                 {
                     "name":"Mohammed Hafiz",
                     "image":"hafeez",
-                    "pid" : 56007
+                    "pid" : 794767
                 },
                 {
                     "name":"Haris Sohail",
                     "image":"sohail",
-                    "pid" : 56007
+                    "pid" : 318788
                 },
                 {
                     "name":"Faheem Ashraf",
                     "image":"faheem",
-                    "pid" : 56007
+                    "pid" : 681117
                 },
                 {
                     "name":"Shadab Khan",
                     "image":"shadab",
-                    "pid" : 56007
+                    "pid" : 922943
                 },
                 {
                     "name":"Imad Wasim",
                     "image":"imad",
-                    "pid" : 56007
+                    "pid" : 227758
                 },
                 {
-                    "name":"Shahin Afridi",
+                    "name":"Shaheen Afridi",
                     "image":"afridi",
-                    "pid" : 56007
+                    "pid" : 1072470
                 },
                 {
                     "name":"Hasan Ali",
                     "image":"hasan",
-                    "pid" : 56007
+                    "pid" : 40497
                 },
                 {
                     "name":"Junaid Khan",
                     "image":"junaid",
-                    "pid" : 56007
+                    "pid" : 259551
                 },
                 {
                     "name":"Mohammad Hasnain",
                     "image":"hasnain",
-                    "pid" : 56007
+                    "pid" : 41327
                 }
             ]
         },
@@ -572,77 +588,77 @@
                 {
                     "name": "Jason Holder (Captain)",
                     "image":"holder",
-                    "pid" : 56007
+                    "pid" : 391485
                 },
                 {
                     "name":"Chris Gayle",
                     "image":"gayle",
-                    "pid" : 56007
+                    "pid" : 51880
                 },
                 {
                     "name":"Evin Lewis",
                     "image":"lewis",
-                    "pid" : 56007
+                    "pid" : 431901
                 },
                 {
                     "name":"Shimran Hetmyer",
                     "image":"hetmyer",
-                    "pid" : 56007
+                    "pid" : 670025
                 },
                 {
                     "name":"Darren Bravo",
                     "image":"bravo",
-                    "pid" : 56007
+                    "pid" : 277472
                 },
                 {
                     "name":"Ashley Nurse",
                     "image":"nurse",
-                    "pid" : 56007
+                    "pid" : 315594
                 },
                 {
                     "name":"Fabian Allen",
                     "image":"allen",
-                    "pid" : 56007
+                    "pid" : 670013
                 },
                 {
                     "name":"Andre Russell",
                     "image":"russel",
-                    "pid" : 56007
+                    "pid" : 276298
                 },
                 {
                     "name":"Carlos Brathwaite",
                     "image":"carlos",
-                    "pid" : 56007
+                    "pid" : 457249
                 },
                 {
                     "name":"Nicholas Pooran (WK)",
                     "image":"pooran",
-                    "pid" : 56007
+                    "pid" : 604302
                 },
                 {
-                    "name":"Shai Hope",
+                    "name":"Shai Hope (WK)",
                     "image":"hope",
-                    "pid" : 56007
+                    "pid" : 581379
                 },
                 {
                     "name":"Kemar Roach",
                     "image":"roach",
-                    "pid" : 56007
+                    "pid" : 230553
                 },
                 {
                     "name":"Oshane Thomas",
                     "image":"thomas",
-                    "pid" : 56007
+                    "pid" : 914567
                 },
                 {
                     "name":"Shanon Gabriel",
                     "image":"gabriel",
-                    "pid" : 56007
+                    "pid" : 446101
                 },
                 {
                     "name":"Sheldon Cottrell",
                     "image":"cottrell",
-                    "pid" : 56007
+                    "pid" : 495551
                 }
             ]
         },
@@ -654,77 +670,77 @@
                 {
                     "name": "Dimuth Karunaratne (C)",
                     "image":"dimuth",
-                    "pid" : 56007
+                    "pid" : 227772
                 },
                 {
                     "name":"Avishka Fernando",
                     "image":"fernando",
-                    "pid" : 56007
+                    "pid" : 784369
                 },
                 {
                     "name":"Lahiru Thirimanne",
                     "image":"lahiru",
-                    "pid" : 56007
+                    "pid" : 301236
                 },
                 {
                     "name":"Angelo Mathews",
                     "image":"mathews",
-                    "pid" : 56007
+                    "pid" : 49764
                 },
                 {
                     "name":"Dhananjaya De Silva",
                     "image":"dds",
-                    "pid" : 56007
+                    "pid" : 465793
                 },
                 {
                     "name":"Isuru Udana",
                     "image":"udana",
-                    "pid" : 56007
+                    "pid" : 328026
                 },
                 {
                     "name":"Milinda Siriwardana",
                     "image":"milinda",
-                    "pid" : 56007
+                    "pid" : 222354
                 },
                 {
                     "name":"Thisara Perara",
                     "image":"tperara",
-                    "pid" : 56007
+                    "pid" : 233514
                 },
                 {
                     "name":"Jeevan Mendis",
                     "image":"jeevan",
-                    "pid" : 56007
+                    "pid" : 49700
                 },
                 {
                     "name":"Kusal Perara (WK)",
                     "image":"kperara",
-                    "pid" : 56007
+                    "pid" : 300631
                 },
                 {
                     "name":"Kusal Mendis",
                     "image":"kmendis",
-                    "pid" : 56007
+                    "pid" : 629074
                 },
                 {
                     "name":"Jeffrey Vandersay",
                     "image":"andersay",
-                    "pid" : 56007
+                    "pid" : 370040
                 },
                 {
                     "name":"Lasith Malinga",
                     "image":"malinga",
-                    "pid" : 56007
+                    "pid" : 49758
                 },
                 {
                     "name":"Suranga Lakmal",
                     "image":"lakmal",
-                    "pid" : 56007
+                    "pid" : 49619
                 },
                 {
                     "name":"Nuwan Pradeep",
                     "image":"nuwan",
-                    "pid" : 56007
+                    "pid" : 324358
                 }
             ]
         },
@@ -736,77 +752,77 @@
                 {
                     "name": "Gulbadin Naib (Captain)",
                     "image":"naib",
-                    "pid" : 56007
+                    "pid" : 352048
                 },
                 {
                     "name":"Noor Ali Zadran",
                     "image":"noor",
-                    "pid" : 56007
+                    "pid" : 318340
                 },
                 {
                     "name":"Hazratullah Zazai",
                     "image":"zazai",
-                    "pid" : 56007
+                    "pid" : 793457
                 },
                 {
                     "name":"Ashgar Afghan",
                     "image":"afghan",
-                    "pid" : 56007
+                    "pid" : 320652
                 },
                 {
                     "name":"Hashmatullah Shahidi",
                     "image":"shahidi",
-                    "pid" : 56007
+                    "pid" : 440970
                 },
                 {
                     "name":"Najibullah Zadran",
                     "image":"najibullah",
-                    "pid" : 56007
+                    "pid" : 524049
                 },
                 {
                     "name":"Samiullah Shenwari",
                     "image":"samiullah",
-                    "pid" : 56007
+                    "pid" : 318339
                 },
                 {
                     "name":"Mohammad Nabi",
                     "image":"nabi",
-                    "pid" : 56007
+                    "pid" : 25913
                 },
                 {
                     "name":"Mohammad Shahzad (WK)",
                     "image":"shahzad",
-                    "pid" : 56007
+                    "pid" : 419873
                 },
                 {
                     "name":"Rashid Khan",
                     "image":"rashid",
-                    "pid" : 56007
+                    "pid" : 793463
                 },
                 {
                     "name":"Dawlat Zadran",
                     "image":"dawlat",
-                    "pid" : 56007
+                    "pid" : 516561
                 },
                 {
                     "name":"Aftab Alam",
                     "image":"aftab",
-                    "pid" : 56007
+                    "pid" : 39868
                 },
                 {
                     "name":"Hamid Hasan",
                     "image":"hamid",
-                    "pid" : 56007
+                    "pid" : 311427
                 },
                 {
                     "name":"Mujeeb ur Rahman",
                     "image":"mujeeb",
-                    "pid" : 56007
+                    "pid" : 974109
                 },
                 {
                     "name":"Rahmat Shah",
                     "image":"rahamt",
-                    "pid" : 56007
+                    "pid" : 533956
                 }
             ]
         }

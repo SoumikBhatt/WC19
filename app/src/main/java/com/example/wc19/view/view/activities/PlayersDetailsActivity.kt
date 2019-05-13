@@ -7,10 +7,13 @@ import android.util.Log
 import android.widget.LinearLayout
 import android.widget.Toast
 import com.example.wc19.R
+import com.example.wc19.adapters.PlayerDetailsAdapter
 import com.example.wc19.api.WebService
 import com.example.wc19.model.Player
 import com.example.wc19.model.PlayerDetailsModel
 import com.example.wc19.utils.CRIC_API
+import com.example.wc19.utils.hideProgressBar
+import com.example.wc19.utils.showProgressBar
 import kotlinx.android.synthetic.main.activity_players_details.*
 
 class PlayersDetailsActivity : AppCompatActivity() {
@@ -34,11 +37,16 @@ class PlayersDetailsActivity : AppCompatActivity() {
         rv_player_details.setHasFixedSize(true)
         rv_player_details.layoutManager=LinearLayoutManager(this,LinearLayout.VERTICAL,false)
 
+        showProgressBar(this)
+
         WebService.callPlayerDetailsAPI(CRIC_API,playerID){ responseObj, error ->
 
             if (error==null){
                 playerDetailsModel= responseObj!!
                 Log.d("onResponse",""+responseObj)
+                var playerDetailsAdapter=PlayerDetailsAdapter(applicationContext,playerDetailsModel)
+                rv_player_details.adapter=playerDetailsAdapter
+                hideProgressBar()
             } else{
                 Toast.makeText(applicationContext,""+error,Toast.LENGTH_SHORT).show()
 
