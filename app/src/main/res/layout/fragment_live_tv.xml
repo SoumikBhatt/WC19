@@ -9,17 +9,16 @@
     <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="56dp"
-            android:background="#232882">
+            android:background="@color/colorPrimary">
 
         <TextView android:layout_width="wrap_content"
                   android:layout_height="wrap_content"
                   android:text="Live TV"
                   android:textStyle="bold"
                   android:layout_centerInParent="true"
-                  android:fontFamily="serif-monospace"
                   android:textAllCaps="true"
                   android:textColor="@android:color/white"
-                  android:textSize="16sp"/>
+                 />
 
     </RelativeLayout>
 
@@ -30,137 +29,13 @@
                   android:orientation="vertical">
 
         <android.support.v7.widget.CardView
-                android:id="@+id/cv_btv"
                 xmlns:android="http://schemas.android.com/apk/res/android"
                 xmlns:app="http://schemas.android.com/apk/res-auto"
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                app:cardCornerRadius="15dp"
-                android:layout_margin="10dp">
-
-            <ImageView
-                    android:id="@+id/iv_channel_icon1"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/btv"
-                    android:scaleType="centerCrop"/>
-
-            <View android:layout_width="match_parent"
-                  android:layout_height="match_parent"
-                  android:background="#6A000000"></View>
-
-            <RelativeLayout android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="20dp">
-                <TextView
-                        android:id="@+id/tv_channel_name"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="BTV"
-                        android:textSize="30sp"
-                        android:textColor="#FFFFFF"
-                        android:fontFamily="serif-monospace"
-                        android:textAllCaps="true"
-                        android:textStyle="bold"
-                        android:layout_above="@id/tv_team_rank"
-                        android:layout_marginLeft="10dp"
-                        android:layout_alignParentBottom="true"
-                />
-
-            </RelativeLayout>
-
-        </android.support.v7.widget.CardView>
-
-        <android.support.v7.widget.CardView
-                android:id="@+id/cv_gtv"
-                xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:app="http://schemas.android.com/apk/res-auto"
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                app:cardCornerRadius="15dp"
-                android:layout_margin="10dp">
-
-            <ImageView
-                    android:id="@+id/iv_channel_icon2"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/gtv"
-                    android:scaleType="centerCrop"/>
-
-            <View android:layout_width="match_parent"
-                  android:layout_height="match_parent"
-                  android:background="#6A000000"></View>
-
-            <RelativeLayout android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="20dp">
-                <TextView
-                        android:id="@+id/tv_channel_name2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="GTV"
-                        android:textSize="30sp"
-                        android:textColor="#FFFFFF"
-                        android:fontFamily="serif-monospace"
-                        android:textAllCaps="true"
-                        android:textStyle="bold"
-                        android:layout_marginLeft="10dp"
-                        android:layout_alignParentBottom="true"
-                />
-
-            </RelativeLayout>
-
-        </android.support.v7.widget.CardView>
-
-        <android.support.v7.widget.CardView
-                android:id="@+id/cv_masranga"
-                xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:app="http://schemas.android.com/apk/res-auto"
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                app:cardCornerRadius="15dp"
-                android:layout_margin="10dp">
-
-            <ImageView
-                    android:id="@+id/iv_channel_icon3"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/masranga"
-                    android:scaleType="centerCrop"/>
-
-            <View android:layout_width="match_parent"
-                  android:layout_height="match_parent"
-                  android:background="#6A000000"></View>
-
-            <RelativeLayout android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="20dp">
-                <TextView
-                        android:id="@+id/tv_channel_name3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Masranga TV"
-                        android:textSize="30sp"
-                        android:textColor="#FFFFFF"
-                        android:fontFamily="serif-monospace"
-                        android:textAllCaps="true"
-                        android:textStyle="bold"
-                        android:layout_marginLeft="10dp"
-                        android:layout_alignParentBottom="true"
-                />
-
-            </RelativeLayout>
-
-        </android.support.v7.widget.CardView>
-
-        <android.support.v7.widget.CardView
                 android:id="@+id/cv_star_sports"
-                xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
-                app:cardCornerRadius="15dp"
-                android:layout_margin="10dp">
+                app:cardCornerRadius="10dp"
+                app:cardUseCompatPadding="true" android:layout_marginRight="5dp" android:layout_marginLeft="5dp">
 
             <ImageView
                     android:id="@+id/iv_channel_icon4"
@@ -195,13 +70,13 @@
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
-               android:id="@+id/cv_sony_liv"
                 xmlns:android="http://schemas.android.com/apk/res/android"
                 xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/cv_sony_liv"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
-                app:cardCornerRadius="15dp"
-                android:layout_margin="10dp">
+                app:cardCornerRadius="10dp"
+                app:cardUseCompatPadding="true" android:layout_marginRight="5dp" android:layout_marginLeft="5dp">
 
             <ImageView
                     android:id="@+id/iv_channel_icon5"
@@ -234,6 +109,133 @@
             </RelativeLayout>
 
         </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/cv_gtv"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:cardCornerRadius="10dp"
+                app:cardUseCompatPadding="true" android:layout_marginRight="5dp" android:layout_marginLeft="5dp">
+
+            <ImageView
+                    android:id="@+id/iv_channel_icon2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/gtv"
+                    android:scaleType="centerCrop"/>
+
+            <View android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:background="#6A000000"></View>
+
+            <RelativeLayout android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20dp">
+                <TextView
+                        android:id="@+id/tv_channel_name2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GTV"
+                        android:textSize="30sp"
+                        android:textColor="#FFFFFF"
+                        android:fontFamily="serif-monospace"
+                        android:textAllCaps="true"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+                        android:layout_alignParentBottom="true"
+                />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/cv_masranga"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:cardCornerRadius="10dp"
+                app:cardUseCompatPadding="true" android:layout_marginRight="5dp" android:layout_marginLeft="5dp">
+
+            <ImageView
+                    android:id="@+id/iv_channel_icon3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/masranga"
+                    android:scaleType="centerCrop"/>
+
+            <View android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:background="#6A000000"></View>
+
+            <RelativeLayout android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20dp">
+                <TextView
+                        android:id="@+id/tv_channel_name3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Masranga TV"
+                        android:textSize="30sp"
+                        android:textColor="#FFFFFF"
+                        android:fontFamily="serif-monospace"
+                        android:textAllCaps="true"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+                        android:layout_alignParentBottom="true"
+                />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/cv_btv"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:cardCornerRadius="10dp"
+                app:cardUseCompatPadding="true" android:layout_marginRight="5dp" android:layout_marginLeft="5dp">
+
+            <ImageView
+                    android:id="@+id/iv_channel_icon1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/btv"
+                    android:scaleType="centerCrop"/>
+
+            <View android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:background="#6A000000"></View>
+
+            <RelativeLayout android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20dp">
+                <TextView
+                        android:id="@+id/tv_channel_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="BTV"
+                        android:textSize="30sp"
+                        android:textColor="#FFFFFF"
+                        android:fontFamily="serif-monospace"
+                        android:textAllCaps="true"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+                        android:layout_alignParentBottom="true"
+                />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+
 
 
     </LinearLayout>

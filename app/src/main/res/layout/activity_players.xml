@@ -24,6 +24,7 @@
                 app:title="Bangladesh"
                 app:expandedTitleGravity="bottom|end"
                 app:collapsedTitleGravity="center|center_horizontal|center_vertical"
+                android:layout_gravity="center"
         >
 
             <ImageView

@@ -12,17 +12,16 @@
             android:id="@+id/top_layout"
             android:layout_width="match_parent"
             android:layout_height="56dp"
-            android:background="#232882">
+            android:background="@color/colorPrimary">
 
         <TextView android:layout_width="wrap_content"
                   android:layout_height="wrap_content"
                   android:text="Home"
                   android:textStyle="bold"
                   android:layout_centerInParent="true"
-                  android:fontFamily="serif-monospace"
                   android:textAllCaps="true"
                   android:textColor="@android:color/white"
-                  android:textSize="16sp"/>
+                 />
 
     </RelativeLayout>
 
