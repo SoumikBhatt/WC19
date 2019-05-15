@@ -9,7 +9,7 @@
             android:id="@+id/top_layout"
             android:layout_width="match_parent"
             android:layout_height="?android:attr/actionBarSize"
-            android:background="#FF1E50">
+            android:background="@color/color_secondary">
 
         <ImageView
                 android:id="@+id/iv_back_det"
