@@ -11,6 +11,7 @@ import android.webkit.WebView
 import android.webkit.WebViewClient
 import com.example.wc19.*
 import com.example.wc19.utils.POINTS_TABLE_URL
+import com.example.wc19.utils.checkInternet
 import com.example.wc19.utils.hideProgressBar
 import com.example.wc19.utils.showProgressBar
 
@@ -28,6 +29,8 @@ class PointsTableFragment : Fragment() {
         var view = inflater.inflate(R.layout.fragment_points_table, container, false)
 
         pointsTableView = view.wv_points_table
+
+        checkInternet(context!!)
 
         var webSettings: WebSettings = pointsTableView.settings
         webSettings.javaScriptEnabled= true

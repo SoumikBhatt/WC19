@@ -3,7 +3,9 @@ package com.example.wc19.view.view.activities
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v4.app.Fragment
+import android.widget.Toast
 import com.example.wc19.R
+import com.example.wc19.utils.getConnectivityStatus
 import com.example.wc19.view.view.fragments.*
 import kotlinx.android.synthetic.main.activity_main.*
 

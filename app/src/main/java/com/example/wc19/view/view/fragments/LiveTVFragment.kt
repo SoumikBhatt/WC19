@@ -8,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 
 import com.example.wc19.R
+import com.example.wc19.utils.checkInternet
 import com.example.wc19.view.view.activities.LiveStreamActivity
 import com.example.wc19.view.view.activities.SonyLivActivity
 import com.example.wc19.view.view.activities.YoutubeStreamActivity
@@ -31,26 +32,31 @@ class LiveTVFragment : Fragment() {
 
         live_gtv.setOnClickListener(View.OnClickListener {
 
+            checkInternet(context!!)
             var intent = Intent(context,YoutubeStreamActivity::class.java)
             startActivity(intent)
         })
 
         live_sony_liv.setOnClickListener(View.OnClickListener {
+            checkInternet(context!!)
            var intent = Intent(context, SonyLivActivity::class.java)
             startActivity(intent)
         })
 
         live_btv.setOnClickListener(View.OnClickListener {
+            checkInternet(context!!)
             var intent = Intent(context, LiveStreamActivity::class.java)
             startActivity(intent)
         })
 
         live_masranga.setOnClickListener(View.OnClickListener {
+            checkInternet(context!!)
             var intent = Intent(context, LiveStreamActivity::class.java)
             startActivity(intent)
         })
 
         live_star_sports.setOnClickListener(View.OnClickListener {
+            checkInternet(context!!)
             var intent = Intent(context, LiveStreamActivity::class.java)
             startActivity(intent)
         })

@@ -6,15 +6,17 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import com.bumptech.glide.Glide
 import com.example.wc19.R
 import com.example.wc19.model.PlayerDetailsModel
 import kotlinx.android.synthetic.main.item_player_details.view.*
 
-class PlayerDetailsAdapter(var context:Context, var playerDetailsModel: PlayerDetailsModel) : RecyclerView.Adapter<PlayerDetailsAdapter.DetailsHolder>() {
+class PlayerDetailsAdapter(var context: Context, var playerDetailsModel: PlayerDetailsModel) :
+    RecyclerView.Adapter<PlayerDetailsAdapter.DetailsHolder>() {
     override fun onCreateViewHolder(p0: ViewGroup, p1: Int): DetailsHolder {
 
-        val view = LayoutInflater.from(p0.context).inflate(R.layout.item_player_details,p0,false)
+        val view = LayoutInflater.from(p0.context).inflate(R.layout.item_player_details, p0, false)
         return DetailsHolder(view)
 
     }
@@ -26,62 +28,71 @@ class PlayerDetailsAdapter(var context:Context, var playerDetailsModel: PlayerDe
 
     override fun onBindViewHolder(p0: DetailsHolder, p1: Int) {
 
-        p0.playerName.text=playerDetailsModel.name
-        p0.playerCountry.text=playerDetailsModel.country
+        p0.playerName.text = playerDetailsModel.name
+        p0.playerCountry.text = playerDetailsModel.country
 
         Glide.with(context)
             .load(playerDetailsModel.imageURL)
             .into(p0.playerIcon)
 
-        p0.playerDOB.text="Born: "+playerDetailsModel.born
-        p0.playerAge.text="Age: "+playerDetailsModel.currentAge
-        p0.playerRole.text="Role: "+playerDetailsModel.playingRole
-        p0.playerBattingstyle.text="Batting Style: "+playerDetailsModel.battingStyle
-        p0.playerBowlingStyle.text="Bowling Style: "+playerDetailsModel.bowlingStyle
-        p0.playerMajorTeams.text="Major Teams: "+playerDetailsModel.majorTeams
+        p0.playerDOB.text = "Born: " + playerDetailsModel.born
+        p0.playerAge.text = "Age: " + playerDetailsModel.currentAge
+        p0.playerRole.text = "Role: " + playerDetailsModel.playingRole
+        p0.playerBattingstyle.text = "Batting Style: " + playerDetailsModel.battingStyle
+        p0.playerBowlingStyle.text = "Bowling Style: " + playerDetailsModel.bowlingStyle
+        p0.playerMajorTeams.text = "Major Teams: " + playerDetailsModel.majorTeams
 
-        p0.playerProfile.text=playerDetailsModel.profile
+        p0.playerProfile.text = playerDetailsModel.profile
 
-        Log.d("1122",""+playerDetailsModel.profile)
+        Log.d("1122", "" + playerDetailsModel.profile)
 
         var oneDay = playerDetailsModel.data.batting.ODIs
 
-        Log.d("1122",""+oneDay.Runs)
+//        Log.d("1122", "" + oneDay.Runs)
 
-        p0.playerMatchesBat.text=oneDay.Mat
-        p0.playerInnBat.text=oneDay.Inns
-        p0.playerNotOut.text=oneDay.NO
-        p0.playerRunsBat.text=oneDay.Runs
-        p0.playerHS.text=oneDay.HS
-        p0.playerAVGBat.text=oneDay.Ave
-        p0.playerBallFaced.text=oneDay.BF
-        p0.playerSRBat.text=oneDay.SR
-        p0.playerHundred.text=oneDay.hundred
-        p0.playerFifties.text=oneDay.fifty
-        p0.playerSix.text=oneDay.six
-        p0.playerFours.text=oneDay.fours
-        p0.playerCatches.text=oneDay.Ct
-        p0.playerStumping.text=oneDay.St
+//        if (oneDay == null) {
+//            Toast.makeText(context, "Player Data is not available!", Toast.LENGTH_SHORT).show()
+//        } else {
 
+            p0.playerMatchesBat?.text = oneDay?.Mat
+            p0.playerInnBat?.text = oneDay?.Inns
+            p0.playerNotOut?.text = oneDay?.NO
+            p0.playerRunsBat?.text = oneDay?.Runs
+            p0.playerHS?.text = oneDay?.HS
+            p0.playerAVGBat?.text = oneDay?.Ave
+            p0.playerBallFaced?.text = oneDay?.BF
+            p0.playerSRBat?.text = oneDay?.SR
+            p0.playerHundred?.text = oneDay?.hundred
+            p0.playerFifties?.text = oneDay?.fifty
+            p0.playerSix?.text = oneDay?.six
+            p0.playerFours?.text = oneDay?.fours
+            p0.playerCatches?.text = oneDay?.Ct
+            p0.playerStumping?.text = oneDay?.St
+//        }
         var oneDayBowling = playerDetailsModel.data.bowling.ODIs
-        Log.d("1122",""+oneDayBowling.Mat)
+//        Log.d("1122", "" + oneDayBowling.Mat)
 
-        p0.playerMatchesBowl.text=oneDayBowling.Mat
-        p0.playerInnBowl.text=oneDayBowling.Inns
-        p0.balls.text=oneDayBowling.Balls
-        p0.runsBow.text=oneDayBowling.Runs
-        p0.wickets.text=oneDayBowling.Wkts
-        p0.bbm.text=oneDayBowling.BBM
-        p0.bbi.text=oneDayBowling.BBI
-        p0.average.text=oneDayBowling.Ave
-        p0.economy.text=oneDayBowling.Econ
-        p0.strikeRate.text=oneDayBowling.SR
-        p0.fourWkts.text=oneDayBowling.fourWickets
-        p0.fiveWkts.text=oneDayBowling.fiveWickets
-        p0.tenWickets.text=oneDayBowling.tenWickets
+//        if (oneDayBowling == null){
+//            Toast.makeText(context, "Player Data is not available!", Toast.LENGTH_SHORT).show()
+//        } else {
+
+            p0.playerMatchesBowl?.text = oneDayBowling?.Mat
+            p0.playerInnBowl?.text = oneDayBowling?.Inns
+            p0.balls?.text = oneDayBowling?.Balls
+            p0.runsBow?.text = oneDayBowling?.Runs
+            p0.wickets?.text = oneDayBowling?.Wkts
+            p0.bbm?.text = oneDayBowling?.BBM
+            p0.bbi?.text = oneDayBowling?.BBI
+            p0.average?.text = oneDayBowling?.Ave
+            p0.economy?.text = oneDayBowling?.Econ
+            p0.strikeRate?.text = oneDayBowling?.SR
+            p0.fourWkts?.text = oneDayBowling?.fourWickets
+            p0.fiveWkts?.text = oneDayBowling?.fiveWickets
+            p0.tenWickets?.text = oneDayBowling?.tenWickets
+//        }
     }
 
-    class DetailsHolder(itemView: View):RecyclerView.ViewHolder(itemView) {
+    class DetailsHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
         val playerIcon = itemView.iv_player_icon
         val playerName = itemView.tv_player_name_details
@@ -114,7 +125,7 @@ class PlayerDetailsAdapter(var context:Context, var playerDetailsModel: PlayerDe
         val playerFours = itemView.tv_fours
         val playerSix = itemView.tv_six
         val playerCatches = itemView.tv_catches
-        val playerStumping =itemView.tv_stumpings
+        val playerStumping = itemView.tv_stumpings
 
         //Bowling
         val playerMatchesBowl = itemView.tv_player_matches_bowling

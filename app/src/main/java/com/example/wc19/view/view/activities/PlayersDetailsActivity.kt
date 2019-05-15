@@ -48,6 +48,7 @@ class PlayersDetailsActivity : AppCompatActivity() {
                 rv_player_details.adapter=playerDetailsAdapter
                 hideProgressBar()
             } else{
+                hideProgressBar()
                 Toast.makeText(applicationContext,""+error,Toast.LENGTH_SHORT).show()
 
             }

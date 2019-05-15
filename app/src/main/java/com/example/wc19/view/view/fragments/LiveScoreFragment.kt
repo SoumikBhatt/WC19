@@ -10,6 +10,7 @@ import android.webkit.*
 import com.example.wc19.utils.LIVE_SCORE_URL
 
 import com.example.wc19.R
+import com.example.wc19.utils.checkInternet
 import com.example.wc19.utils.hideProgressBar
 import com.example.wc19.utils.showProgressBar
 import kotlinx.android.synthetic.main.fragment_live_score.view.*
@@ -28,6 +29,8 @@ class LiveScoreFragment : Fragment() {
         var view: View = inflater.inflate(R.layout.fragment_live_score, container, false)
 
         liveScoreView = view.wv_live_score
+
+        checkInternet(context!!)
 
         var webSettings: WebSettings = liveScoreView.settings
         webSettings.javaScriptEnabled = true

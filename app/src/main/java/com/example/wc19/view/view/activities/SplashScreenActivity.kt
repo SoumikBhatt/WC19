@@ -10,7 +10,7 @@ import com.example.wc19.R
 
 class SplashScreenActivity:AppCompatActivity() {
 
-    private val SPLASH_TIME_OUT: Long = 2000 // 2 sec
+    private val SPLASH_TIME_OUT: Long = 1500 // 1.5 sec
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
