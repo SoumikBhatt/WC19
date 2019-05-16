@@ -10,24 +10,6 @@ fun getConnectivityStatus(context: Context): String? {
 
         var status: String? = null
 
-//        var connectivityManager = context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
-//        var activeNetwork: NetworkInfo = connectivityManager.activeNetworkInfo
-//
-//        if (activeNetwork != null) {
-//            if (activeNetwork.type == ConnectivityManager.TYPE_WIFI) {
-//
-//                status = "Wifi enabled"
-//                return status
-//            } else if (activeNetwork.type == ConnectivityManager.TYPE_MOBILE) {
-//                status = "Mobile Data enabled"
-//                return status
-//            }
-//        } else {
-//            status = "No Internet Available, Please Provide Internet Connection!"
-//            return status
-//        }
-//        return status
-
         val cm = context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
         val activeNetwork: NetworkInfo? = cm.activeNetworkInfo
         val isConnected: Boolean = activeNetwork?.isConnectedOrConnecting == true
