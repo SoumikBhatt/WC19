@@ -9,7 +9,7 @@ import retrofit2.Response
 
 object WebService {
 
-    const val ON_FAILURE_MESSAGE = "Connection Problem"
+    const val ON_FAILURE_MESSAGE = "Seems to have some problem!, Please Check your Internet Connection and Try Again"
 
     fun callPlayerDetailsAPI(apiKey : String, playerID : Int, callDetailsApi : (PlayerDetailsModel?,String?)->Unit) {
 

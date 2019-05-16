@@ -36,10 +36,10 @@ fun getConnectivityStatus(context: Context): String? {
             val isWiFi: Boolean = activeNetwork?.type == ConnectivityManager.TYPE_WIFI
             val isMobile : Boolean = activeNetwork?.type == ConnectivityManager.TYPE_MOBILE
             if (isWiFi){
-                status="You are connected to Wifi Service"
+                status="Redirecting to Server"
                 return status
             }else if (isMobile){
-                status = "You are connected to Mobile data"
+                status = "Redirecting to Server"
                 return status
             }
         } else{

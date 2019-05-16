@@ -8,7 +8,7 @@
     <android.support.v7.widget.CardView
             android:id="@+id/cv_m_one"
             android:layout_width="match_parent"
-            android:layout_height="260dp"
+            android:layout_height="270dp"
             app:cardCornerRadius="10dp"
             android:layout_below="@id/top_layout"
             app:cardUseCompatPadding="true">
