@@ -50,7 +50,7 @@ class PointsTableFragment : Fragment() {
         })
 
 
-        showProgressBar(activity!!)
+//        showProgressBar(activity!!)
 
         pointsTableView.webViewClient= object : WebViewClient(){
 
@@ -65,7 +65,7 @@ class PointsTableFragment : Fragment() {
 
             override fun onPageFinished(view: WebView?, url: String?) {
                 super.onPageFinished(view, url)
-                hideProgressBar()
+//                hideProgressBar()
             }
         }
 

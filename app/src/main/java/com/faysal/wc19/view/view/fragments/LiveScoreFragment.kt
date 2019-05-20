@@ -50,7 +50,7 @@ class LiveScoreFragment : Fragment() {
         })
 
 
-        showProgressBar(activity!!)
+//        showProgressBar(activity!!)
 
         liveScoreView.webViewClient = object : WebViewClient() {
 
@@ -64,7 +64,7 @@ class LiveScoreFragment : Fragment() {
 
             override fun onPageFinished(view: WebView?, url: String?) {
                 super.onPageFinished(view, url)
-                hideProgressBar()
+//                hideProgressBar()
             }
         }
 
