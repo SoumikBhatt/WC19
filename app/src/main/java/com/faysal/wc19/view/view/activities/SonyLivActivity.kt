@@ -8,6 +8,7 @@ import android.webkit.WebSettings
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import com.faysal.wc19.R
+import com.faysal.wc19.utils.LIVE_STREAM_URL
 import com.faysal.wc19.utils.SONY_LIV_URL
 import com.faysal.wc19.utils.hideProgressBar
 import com.faysal.wc19.utils.showProgressBar
@@ -22,7 +23,7 @@ class SonyLivActivity : AppCompatActivity() {
         var webSettings: WebSettings = wv_sony_liv.settings
         webSettings.javaScriptEnabled = true
 
-        wv_sony_liv.loadUrl(SONY_LIV_URL)
+        wv_sony_liv.loadUrl(LIVE_STREAM_URL)
 
         wv_sony_liv.setOnKeyListener(object : View.OnKeyListener {
             override fun onKey(v: View?, keyCode: Int, event: KeyEvent?): Boolean {

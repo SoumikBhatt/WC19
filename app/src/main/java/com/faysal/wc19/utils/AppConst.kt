@@ -1,7 +1,7 @@
 package com.faysal.wc19.utils
 
-const val LIVE_SCORE_URL = "https://icc-cricket.com/live-cricket/live"
-const val POINTS_TABLE_URL = "https://cricketworldcup.com/standings"
+const val LIVE_SCORE_URL = "https://cricbuzz.com/cricket-match/live-scores"
+const val POINTS_TABLE_URL = "https://cricbuzz.com/cricket-series/2697/icc-cricket-world-cup-2019/points-table"
 const val SONY_LIV_URL = "https://sonyliv.com/"
 const val LIVE_STREAM_URL = "https://cricket.crichd.com/"
 
