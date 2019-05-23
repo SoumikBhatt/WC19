@@ -3,41 +3,40 @@
           package="com.faysal.wc19">
 
     <uses-permission android:name="android.permission.INTERNET"/>
-
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
     <application
-            android:name="com.faysal.wc19.Wc19"
+            android:name=".Wc19"
             android:allowBackup="true"
             android:icon="@drawable/icon_app"
             android:label="@string/app_name"
             android:roundIcon="@drawable/icon_app"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name="com.faysal.wc19.view.view.activities.PlayersDetailsActivity">
+        <activity android:name=".view.view.activities.AboutUsActivity">
         </activity>
-        <activity android:name="com.faysal.wc19.view.view.activities.LiveStreamActivity">
+        <activity android:name=".view.view.activities.PlayersDetailsActivity">
         </activity>
-        <activity android:name="com.faysal.wc19.view.view.activities.SonyLivActivity">
+        <activity android:name=".view.view.activities.LiveStreamActivity">
         </activity>
-        <activity android:name="com.faysal.wc19.view.view.activities.YoutubeStreamActivity">
+        <activity android:name=".view.view.activities.SonyLivActivity">
         </activity>
-        <activity android:name="com.faysal.wc19.view.view.activities.MatchDetailsActivity">
+        <activity android:name=".view.view.activities.YoutubeStreamActivity">
         </activity>
-        <activity android:name="com.faysal.wc19.view.view.activities.PlayersActivity">
+        <activity android:name=".view.view.activities.MatchDetailsActivity">
         </activity>
-        <activity android:name="com.faysal.wc19.view.view.activities.MainActivity"/>
-        <activity android:name="com.faysal.wc19.view.view.activities.SplashScreenActivity">
+        <activity android:name=".view.view.activities.PlayersActivity">
+        </activity>
+        <activity android:name=".view.view.activities.MainActivity"/>
+        <activity android:name=".view.view.activities.SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <action android:name="android.intent.action.VIEW"/>
-
-                <action android:name = "android.net.conn.CONNECTIVITY_CHANGE" />
-                <action android:name = "android.net.wifi.WIFI_STATE_CHANGED" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
-
         </activity>
     </application>
 
