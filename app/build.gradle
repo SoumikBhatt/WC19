@@ -10,8 +10,8 @@ android {
         applicationId "com.faysal.wc19"
         minSdkVersion 15
         targetSdkVersion 28
-        versionCode 8
-        versionName "1.1"
+        versionCode 10
+        versionName "1.3"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
