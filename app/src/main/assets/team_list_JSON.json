@@ -27,9 +27,9 @@
                     "pid" : 303669
                 },
                 {
-                    "name":"Alex Hales",
-                    "image":"hales",
-                    "pid" : 249866
+                    "name":"James Vince",
+                    "image":"vince",
+                    "pid" : 296597
                 },
                 {
                     "name":"Liam Plunkett",
@@ -67,14 +67,14 @@
                     "pid" : 550235
                 },
                 {
-                    "name":"Joe Denly",
-                    "image":"denly",
-                    "pid" : 12454
+                    "name":"Liam Dawson",
+                    "image":"dawson",
+                    "pid" : 211855
                 },
                 {
-                    "name":"David Willey",
-                    "image":"willey",
-                    "pid" : 308251
+                    "name":"Jofra Archer",
+                    "image":"archer",
+                    "pid" : 669855
                 },
                 {
                     "name":"Jos Buttler (WK)",
@@ -300,7 +300,7 @@
                 {
                     "name":"Henry Nicholas",
                     "image":"henry",
-                    "pid" : 56007
+                    "pid" : 539511
                 },
                 {
                     "name":"Trent Boult",
@@ -376,7 +376,7 @@
                 },
                 {
                     "name":"Kane Richardson",
-                    "image":"jhye",
+                    "image":"kaner",
                     "pid" : 272262
                 },
                 {
@@ -442,9 +442,9 @@
                     "pid" : 348144
                 },
                 {
-                    "name":"Abid Ali",
-                    "image":"abid",
-                    "pid" : 39950
+                    "name":"Asif Ali",
+                    "image":"asifali",
+                    "pid" : 494230
                 },
                 {
                     "name":"Shoaib Malik",
@@ -462,9 +462,9 @@
                     "pid" : 318788
                 },
                 {
-                    "name":"Faheem Ashraf",
-                    "image":"faheem",
-                    "pid" : 681117
+                    "name":"Mohammad Amir",
+                    "image":"amir",
+                    "pid" : 290948
                 },
                 {
                     "name":"Shadab Khan",
@@ -487,9 +487,9 @@
                     "pid" : 40497
                 },
                 {
-                    "name":"Junaid Khan",
-                    "image":"junaid",
-                    "pid" : 259551
+                    "name":"Wahab Riaz",
+                    "image":"wahab",
+                    "pid" : 43590
                 },
                 {
                     "name":"Mohammad Hasnain",
