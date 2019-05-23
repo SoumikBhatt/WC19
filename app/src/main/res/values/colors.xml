@@ -3,8 +3,6 @@
     <color name="colorPrimary">#001E54</color>
     <color name="colorPrimaryDark">#001E54</color>
     <color name="colorAccent">#D81B60</color>
-    <color name="colorSecondary">#008577</color>
     <color name="color_secondary">#FF1E50</color>
     <color name="color_text">#424242</color>
-    <color name="color_divider">#77C0BABA</color>
 </resources>
