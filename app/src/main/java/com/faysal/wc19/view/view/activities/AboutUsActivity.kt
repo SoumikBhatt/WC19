@@ -25,6 +25,7 @@ class AboutUsActivity : AppCompatActivity() {
            .addGroup("Connect With us")
            .addEmail("piyal.developer@gmail.com")
            .addGitHub("SoumikBhatt")
+           .addFacebook("soumik.bhattacharjee")
            .addItem(createCopyright())
            .create()
 
