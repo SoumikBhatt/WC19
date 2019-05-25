@@ -1,10 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
         tools:context=".view.view.activities.AboutUsActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <RelativeLayout
+            android:id="@+id/top_layout"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/color_secondary">
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="About us"
+                  android:textStyle="bold"
+                  android:layout_centerInParent="true"
+                  android:textAllCaps="true"
+                  android:textColor="@android:color/white"
+        />
+
+    </RelativeLayout>
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical"
+                  android:layout_gravity="center">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:src="@drawable/faysal_bro"
+                android:layout_marginBottom="10dp"
+        />
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:text="@string/bio_faysal"
+                  android:textStyle="bold"
+                  android:textAlignment="center"
+                  android:layout_marginBottom="25dp"
+                  android:textColor="@android:color/white"
+                  android:fontFamily="serif-monospace"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:src="@drawable/soumik"
+                android:layout_marginBottom="10dp"
+        />
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:text="@string/bio_soumik"
+                  android:textStyle="bold"
+                  android:textAlignment="center"
+                  android:textColor="@android:color/white"
+                  android:fontFamily="serif-monospace"/>
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -29,7 +29,7 @@ class AboutUsActivity : AppCompatActivity() {
            .addItem(createCopyright())
            .create()
 
-        setContentView(aboutPage)
+        setContentView(R.layout.activity_about_us)
 
 
     }
