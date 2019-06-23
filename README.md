@@ -9,9 +9,6 @@ An android app for the upcoming ICC Cricket World Cup-2019, contains Full Schedu
 - CricAPI
 - YoutubeStreaming API
 
-## PlayStore Link
-https://play.google.com/store/apps/details?id=com.faysal.wc19&fbclid=IwAR10z2UFaSxotoLUP7IMAEQXeNrIN9jqzdqEbK5v7BbrLx-sP4n_UuzaJ64
-
 ## Author
 - Soumik Bhattacharjee
 
