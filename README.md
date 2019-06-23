@@ -1,5 +1,14 @@
 # Cricket World Cup-2019
-An android app for the upcoming ICC Cricket World Cup-2019, contains Full Schedule, Live Score, Live TV, Team Squad, Player Details, Ranking, Points Table and Many other features. 
+An android app for the upcoming ICC Cricket World Cup-2019.
+
+## Features
+- Full Schedule
+- Live Score
+- Live TV
+- Team Squad
+- Player Details
+- Ranking
+- Points Table and Many other features. 
 
 ## Technology Used
 - Android
@@ -11,5 +20,6 @@ An android app for the upcoming ICC Cricket World Cup-2019, contains Full Schedu
 
 ## Author
 - Soumik Bhattacharjee
+- Faysal Chowdhury
 
 
